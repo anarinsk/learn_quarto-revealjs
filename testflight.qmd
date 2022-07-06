@@ -1,6 +1,7 @@
 ---
-title: "Habits"
-author: "John Doe"
+title: "This Is a Testflight"
+subtitle: "This is subtitle"
+author: "anarinsk"
 format: 
     revealjs:
         incremental: true   
@@ -10,8 +11,13 @@ format:
         background-transition: fade
         smaller: false
         scrollable: true
-        logo: "logo.png"
+        logo: "logo2.png"
 ---
+
+# Disclaimer 
+
+This is testflight for personal use. In this slide, I will test some features of reveal.js.
+The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/)
 
 # In the Morning 
 
@@ -24,6 +30,12 @@ format:
 
 - Get in bed
 - Count sheep
+
+## 해장술은 필요한가?
+
+- 필요하다면 주종은? 
+- 해장술에 어울리는 안주는?
+- 국물이 필요한가?
 
 ## Breakfast
 
@@ -41,12 +53,6 @@ format:
 
 - Get in bed
 - Count sheep
-
-## 야참은 어쩔 건가? 
-
-- 라면 
-- 족발 
-- 소맥 
 
 # How to add Footnote
 
@@ -136,3 +142,87 @@ Right column
 - 총알 넘버 11
 - 총알 넘버 12
 :::
+
+# How to apply fonts
+
+## sample css { .smaller }
+
+:::{ .nonincremental }
+- `.qmd` 파일과 같은 위치에 `.css` 혹은 `.scss` 파일을 두면 된다. 
+- 폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 `testflight.scss`를 보자. 
+    - 2-4 번 라인이 폰트를 입력하는 명령이다. 
+    - 나머지 아래는 각 양식 별로 폰트와 크기를 지정한다. 
+:::
+
+```{.css code-line-numbers=2-4}
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
+
+/*-- scss:rules --*/
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6 {
+  font-family: 'NanumSquare' !important;
+  //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+.reveal ul, 
+.reveal li, 
+.reveal ol{
+    font-family: 'pretendard' !important;
+    font-size: 95%;
+}
+
+```
+
+# Tabsets 
+
+## 탭셋을 적용해보자. 
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A` 
+
+봉준호가 깐느봉일까요?
+
+### Tab B
+
+Content for `Tab B`
+
+박찬욱이 깐느박일까요? 
+
+:::
+
+# How to change background 
+
+## Slide, aquamarine {background-color="aquamarine"}
+
+This changes color of background! 
+
+## Slide Title {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="300px" background-repeat="repeat" background-opacity="0.5"}
+
+This slide's background image will be sized to 100px and repeated.
+
+
+## Slide Title {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="cover" background-repeat="repeat" background-opacity="0.5"}
+
+:::{style="color: yellow;"}
+This slide's background image will be sized to fit the screen.
+:::
+
+- Font color is changed locally. 
+
+## {background-color="aquamarine"}
+
+(A slide with no title)
+
+## {background-color="black" background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat" background-opacity="0.5"}
+
+(Another slide with no title)
