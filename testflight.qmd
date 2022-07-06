@@ -1,0 +1,138 @@
+---
+title: "Habits"
+author: "John Doe"
+format: 
+    revealjs:
+        incremental: true   
+        theme: night
+        css: testflight.scss
+        transition: concave
+        background-transition: fade
+        smaller: false
+        scrollable: true
+        logo: "logo.png"
+---
+
+# In the Morning 
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+- Get in bed
+- Count sheep
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+## 야참은 어쩔 건가? 
+
+- 라면 
+- 족발 
+- 소맥 
+
+# How to add Footnote
+
+## Slide Title
+
+- Green ^[A footnote]
+- Brown
+- Purple
+- 한글과 조화롭나요? 
+
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+
+# Testing Increamental 
+
+## Incremental activated 
+
+::: {.incremental}
+- Eat spaghetti
+- Drink wine
+:::
+
+## Inscremental deactivated
+
+::: {.nonincremental}
+- Eat spaghetti
+- Drink wine
+:::
+
+# Testing Pause 
+
+## Slide with a pause
+
+content before the pause
+
+. . .
+
+content after the pause
+
+# Multicolumn 
+
+## Example 
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+
+- This is left col 
+- 40% allocated 
+:::
+
+::: {.column width="60%"}
+Right column
+
+- 이쪽은 오른쪽 
+- 60%가 할당되어 있지요! 
+:::
+
+::::
+
+# Cotents Overflow 
+
+## Page w/o `{.smaller}`
+
+- This is normal 
+- 이게 보통 크기 
+
+## Page w `{.smaller}` { .smaller }
+
+- This is smaller 
+- 이게 작은 크기 
+
+## Slide Title {.scrollable}
+
+:::{ .nonincremental}
+- Bullet number 1
+- Bullet number 2
+- Bullet number 3
+- Bullet number 4
+- Bullet number 5
+- Bullet number 6
+- Bullet number 7 
+- 총알 넘버 8 
+- 총알 넘버 9
+- 총알 넘버 10
+- 총알 넘버 11
+- 총알 넘버 12
+:::

@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
+
+/*-- scss:rules --*/
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6 {
+  font-family: 'NanumSquare' !important;
+  //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+.reveal ul, 
+.reveal li, 
+.reveal ol{
+    font-family: 'pretendard' !important;
+    font-size: 95%;
+}
