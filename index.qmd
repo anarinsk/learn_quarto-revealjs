@@ -6,7 +6,7 @@ format:
     revealjs:
         incremental: true   
         theme: black
-        css: testflight.scss
+        css: index.scss
         transition: concave
         background-transition: fade
         smaller: false
