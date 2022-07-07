@@ -14,9 +14,15 @@
   //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
 }
 
+.reveal section p {
+    font-family: 'pretendard' !important;
+    font-size: 90%;
+}
+
 .reveal ul, 
 .reveal li, 
 .reveal ol{
     font-family: 'pretendard' !important;
     font-size: 95%;
 }
+

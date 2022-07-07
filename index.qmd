@@ -5,13 +5,14 @@ author: "anarinsk"
 format: 
     revealjs:
         incremental: true   
-        theme: night
+        theme: black
         css: testflight.scss
         transition: concave
         background-transition: fade
         smaller: false
         scrollable: true
         logo: "logo2.png"
+        footer: "This is FOOTER!"
 ---
 
 # Disclaimer 
@@ -25,6 +26,7 @@ The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentat
 
 - Turn off alarm
 - Get out of bed
+- (continued in the next slide)
 
 ---
 
@@ -36,6 +38,8 @@ The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentat
 - 필요하다면 주종은? 
 - 해장술에 어울리는 안주는?
 - 국물이 필요한가?
+
+`p`의 텍스트가 `ul`, `ol`의 텍스트와 달라 보이나요? 
 
 ## Breakfast
 
@@ -56,12 +60,14 @@ The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentat
 
 # How to add Footnote
 
-## Slide Title
+## Footnote 
 
+:::{ .nonincremental }
 - Green ^[A footnote]
 - Brown
 - Purple
 - 한글과 조화롭나요? 
+:::
 
 ::: aside
 Some additional commentary of more peripheral interest.
@@ -171,11 +177,12 @@ Right column
   //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
 }
 
+.reveal p, 
 .reveal ul, 
 .reveal li, 
 .reveal ol{
     font-family: 'pretendard' !important;
-    font-size: 95%;
+    font-size: 90%;
 }
 
 ```
