@@ -31,18 +31,20 @@ The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentat
 
 - Turn off alarm
 - Get out of bed
-- (continued in the next slide)
+- (continued in the next slide... Hit key)
 
 ---
 
-- Get in bed
-- Count sheep
+- Go to the bathroom 
+- Make breakfast 
 
 ## 해장술은 필요한가?
 
 - 필요하다면 주종은? 
 - 해장술에 어울리는 안주는?
 - 국물이 필요한가?
+
+. . . 
 
 `p`의 텍스트가 `ul`, `ol`의 텍스트와 달라 보이나요? 
 
