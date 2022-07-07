@@ -13,7 +13,7 @@ format:
         smaller: false
         scrollable: true
         logo: "logo2.png"
-        footer: "This is FOOTER!"
+        footer: "This is FOOTER! Anti-굥"
         #self-contained: true
 ---
 
@@ -109,23 +109,27 @@ content after the pause
 # Multicolumn 
 
 ## Example 
+::::: { .nonincremental }
+
 :::: {.columns}
 
 ::: {.column width="40%"}
 Left column
 
-- This is left col 
-- 40% allocated 
+- This is left column.
+- 40% is allocated. 
 :::
 
 ::: {.column width="60%"}
 Right column
 
-- 이쪽은 오른쪽 
+- 이쪽은 오른쪽 열입니다. 
 - 60%가 할당되어 있지요! 
 :::
 
 ::::
+
+:::::
 
 # Cotents Overflow 
 
@@ -216,6 +220,31 @@ Content for `Tab B`
 박찬욱이 깐느박일까요? 
 
 :::
+
+# $\rm\LaTeX$ 테스트 
+
+## 수식을 테스트합니다! 
+
+$$
+ u=\frac{-y}{x^2+y^2}\,,\quad
+        v=\frac{x}{x^2+y^2}\,,\quad\text{and}\quad
+        w=0\,.
+$$
+
+$$
+   \begin{bmatrix}
+                1 & x & 0 \\
+                0 & 1 & -1
+        \end{bmatrix}\begin{bmatrix}
+                1  \\
+                y  \\
+                1
+        \end{bmatrix}
+        =\begin{bmatrix}
+                1+xy  \\
+                y-1
+        \end{bmatrix}.
+$$
 
 # How to change background 
 
