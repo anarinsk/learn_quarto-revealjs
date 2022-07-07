@@ -6,7 +6,7 @@ format:
     revealjs:
         incremental: true   
         theme: black
-        css: index.scss
+        css: "./index.scss"
         transition: concave
         background-transition: fade
         smaller: false
