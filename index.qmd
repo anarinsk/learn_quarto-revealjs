@@ -282,6 +282,8 @@ This slide's background image fits the screen.
 - 문제는 VS Code Extension이 아직까지 환경을 제대로 지원하지 않는다. 
 - 따라서 코드가 들어간 경우 렌더링은 터미날에서 직접 해야 한다. 
 
+. . .
+
 ```bash 
 ? quarto render {YOUR-FILES.qmd}
 ```
