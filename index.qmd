@@ -31,7 +31,7 @@ The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentat
 
 - Turn off alarm
 - Get out of bed
-- (continued in the next slide... Hit key)
+- (continued in the next slide... Hit proper key to continue)
 
 ---
 
