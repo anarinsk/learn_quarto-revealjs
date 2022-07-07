@@ -1,24 +1,25 @@
 ---
 title: "This Is a Testflight"
-subtitle: "This is subtitle"
+subtitle: "Compelely useless presentation"
 author: "anarinsk"
 format: 
     revealjs:
         incremental: true   
         theme: black
-        css: "./index.scss"
+        css: "index.css"
         transition: concave
         background-transition: fade
         smaller: false
         scrollable: true
         logo: "logo2.png"
         footer: "This is FOOTER!"
+        #self-contained: true
 ---
 
 # Disclaimer 
 
 This is testflight for personal use. In this slide, I will test some features of reveal.js.
-The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/)
+The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
 
 # In the Morning 
 
@@ -177,14 +178,17 @@ Right column
   //text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
 }
 
-.reveal p, 
-.reveal ul, 
-.reveal li, 
-.reveal ol{
+.reveal section p {
     font-family: 'pretendard' !important;
     font-size: 90%;
 }
 
+.reveal ul, 
+.reveal li, 
+.reveal ol{
+    font-family: 'pretendard' !important;
+    font-size: 95%;
+}
 ```
 
 # Tabsets 
