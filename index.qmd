@@ -1,7 +1,8 @@
 ---
 title: "This Is a Testflight"
 subtitle: "Compelely useless presentation"
-author: "anarinsk"
+author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
+date: "2022-07-07"
 format: 
     revealjs:
         incremental: true   
@@ -20,6 +21,9 @@ format:
 
 This is testflight for personal use. In this slide, I will test some features of reveal.js.
 The features are mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
+<br>
+<br>
+이건 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
 
 # In the Morning 
 
