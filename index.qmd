@@ -137,7 +137,7 @@ Right column
 - This is smaller 
 - 이게 작은 크기 
 
-## Slide Title {.scrollable}
+## 스크롤이 가능한 슬라이드 {.scrollable}
 
 :::{ .nonincremental}
 - Bullet number 1
@@ -221,15 +221,15 @@ Content for `Tab B`
 
 This changes color of background! 
 
-## Slide Title {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="300px" background-repeat="repeat" background-opacity="0.5"}
+## 크기 지정 벽지 {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="300px" background-repeat="repeat" background-opacity="0.5"}
 
 This slide's background image will be sized to 100px and repeated.
 
 
-## Slide Title {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="cover" background-repeat="repeat" background-opacity="0.5"}
+## 꽉찬 벽지 {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="cover" background-repeat="repeat" background-opacity="0.5"}
 
 :::{style="color: yellow;"}
-This slide's background image will be sized to fit the screen.
+This slide's background image fits the screen.
 :::
 
 - Font color is changed locally. 
