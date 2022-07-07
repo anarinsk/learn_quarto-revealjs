@@ -272,3 +272,35 @@ This slide's background image fits the screen.
 ## {background-color="black" background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat" background-opacity="0.5"}
 
 (Another slide with no title)
+
+# How to use code 
+
+## Use env 
+
+- 코드를 실행하기 위해서는 환경을 쓰는 게 좋다. 
+- python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
+- 문제는 VS Code Extension이 아직까지 환경을 제대로 지원하지 않는다. 
+- 따라서 코드가 들어간 경우 렌더링은 터미날에서 직접 해야 한다. 
+
+```bash 
+? quarto render {YOUR-FILES.qmd}
+```
+
+## Testing code 
+
+```{python}
+#| echo: true
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={"projection": "polar"})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+# End of Document

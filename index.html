@@ -693,11 +693,48 @@
 <section id="section-1" class="slide level2" data-background-color="black" data-background-image="https://placekitten.com/100/100" data-background-size="100px" data-background-repeat="repeat" data-background-opacity="0.5">
 <h2></h2>
 <p>(Another slide with no title)</p>
+</section></section>
+<section>
+<section id="how-to-use-code" class="title-slide slide level1 center">
+<h1>How to use code</h1>
+
+</section>
+<section id="use-env" class="slide level2">
+<h2>Use env</h2>
+<ul>
+<li class="fragment">코드를 실행하기 위해서는 환경을 쓰는 게 좋다.</li>
+<li class="fragment">python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.</li>
+<li class="fragment">문제는 VS Code Extension이 아직까지 환경을 제대로 지원하지 않는다.</li>
+<li class="fragment">따라서 코드가 들어간 경우 렌더링은 터미날에서 직접 해야 한다.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">?</span> quarto render {YOUR-FILES.qmd}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="testing-code" class="slide level2">
+<h2>Testing code</h2>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-3"><a href="#cb3-3"></a></span>
+<span id="cb3-4"><a href="#cb3-4"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb3-5"><a href="#cb3-5"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb3-6"><a href="#cb3-6"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
+<span id="cb3-7"><a href="#cb3-7"></a>ax.plot(theta, r)</span>
+<span id="cb3-8"><a href="#cb3-8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb3-9"><a href="#cb3-9"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb3-10"><a href="#cb3-10"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img data-src="index_files/figure-revealjs/cell-2-output-1.png" width="443" height="432"></p>
+</div>
+</div>
+</section></section>
+<section id="end-of-document" class="title-slide slide level1 center">
+<h1>End of Document</h1>
 
 <img src="logo2.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>This is FOOTER! Anti-굥</p>
 </div>
-</section></section>
+</section>
+
 
     </div>
   </div>
