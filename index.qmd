@@ -1,6 +1,6 @@
 ---
 title: "This Is a Testflight"
-subtitle: "Compelely useless presentation"
+subtitle: "Completely useless presentation"
 author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
 date: "2022-07-07"
 format: 
