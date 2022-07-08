@@ -732,11 +732,13 @@
 <ul>
 <li class="fragment">코드를 실행하기 위해서는 환경을 쓰는 게 좋다.</li>
 <li class="fragment">python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.</li>
-<li class="fragment">문제는 VS Code Extension이 아직까지 환경을 제대로 지원하지 않는다.</li>
-<li class="fragment">따라서 코드가 들어간 경우 렌더링은 터미날에서 직접 해야 한다.</li>
+<li class="fragment">Code Extension이 아직까지 환경을 제대로 지원하지 않는다.
+<ul>
+<li class="fragment">실행용 코드가 들어간 경우 렌더링은 터미날에서 직접 실행하자.</li>
+</ul></li>
 </ul>
 <div class="fragment">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">?</span> quarto render {YOUR-FILES.qmd}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">?</span> quarto render {YOUR-FILE.qmd}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="testing-code" class="slide level2">
@@ -752,9 +754,11 @@
 <span id="cb3-8"><a href="#cb3-8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
 <span id="cb3-9"><a href="#cb3-9"></a>ax.grid(<span class="va">True</span>)</span>
 <span id="cb3-10"><a href="#cb3-10"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-
+<div class="cell-output cell-output-display">
+<p><img data-src="index_files/figure-revealjs/cell-2-output-1.png" width="443" height="432"></p>
 </div>
-<img data-src="index_files/figure-revealjs/cell-2-output-1.png" class="r-stretch"></section></section>
+</div>
+</section></section>
 <section id="end-of-document" class="title-slide slide level1 center">
 <h1>End of Document</h1>
 

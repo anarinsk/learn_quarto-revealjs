@@ -311,13 +311,13 @@ This slide's background image fits the screen.
 
 - 코드를 실행하기 위해서는 환경을 쓰는 게 좋다. 
 - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
-- 문제는 VS Code Extension이 아직까지 환경을 제대로 지원하지 않는다. 
-- 따라서 코드가 들어간 경우 렌더링은 터미날에서 직접 해야 한다. 
+- Code Extension이 아직까지 환경을 제대로 지원하지 않는다. 
+  - 실행용 코드가 들어간 경우 렌더링은 터미날에서 직접 실행하자. 
 
 . . .
 
 ```bash 
-? quarto render {YOUR-FILES.qmd}
+? quarto render {YOUR-FILE.qmd}
 ```
 
 ## Testing code 
