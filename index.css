@@ -19,9 +19,16 @@
     font-size: 90%;
 }
 
+
+.reveal section pre code {
+  font-family: 'D2Coding', monospace !important;
+  font-size: 90%;
+}
+
+
 .reveal ul, 
 .reveal li, 
-.reveal ol{
+.reveal ol {
     font-family: 'pretendard' !important;
     font-size: 95%;
 }
@@ -29,4 +36,11 @@
 .reveal code{
   font-family: 'D2Coding', monospace !important;
   font-size: 95%;
+}
+
+.MathJax, 
+.mathjax2,
+.mathjax3,
+.katex {
+  font-family: 'pretendard' !important;
 }

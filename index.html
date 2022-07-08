@@ -7,7 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.640">
+  <meta name="generator" content="quarto-0.9.653">
 
   <meta name="author" content="anarinsk">
   <meta name="dcterms.date" content="2022-07-07">
@@ -642,12 +642,14 @@
 <h1><span class="math inline">\(\rm\LaTeX\)</span> 테스트</h1>
 
 </section>
-<section id="수식을-테스트합니다" class="slide level2">
-<h2>수식을 테스트합니다!</h2>
+<section id="수식-표현을-테스트합니다." class="slide level2">
+<h2>수식 표현을 테스트합니다.</h2>
 <p><span class="math display">\[
-&nbsp;u=\frac{-y}{x^2+y^2}\,,\quad
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v=\frac{x}{x^2+y^2}\,,\quad\text{and}\quad
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w=0\,.
+\begin{aligned}
+  \dot{x} &amp; = \sigma(y-x) \\
+  \dot{y} &amp; = \rho x - y - xz \\
+  \dot{z} &amp; = -\beta z + xy
+\end{aligned}
 \]</span></p>
 <p><span class="math display">\[
 &nbsp;&nbsp;&nbsp;\begin{bmatrix}
@@ -663,6 +665,32 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y-1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}.
 \]</span></p>
+<p>인라인 수식은 잘 들어갑니꽈? <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이얌~</p>
+</section>
+<section id="수식-표현을-테스트합니다.-.smaller" class="slide level2 smaller">
+<h2>수식 표현을 테스트합니다. (<code>.smaller</code>)</h2>
+<p><span class="math display">\[
+\begin{aligned}
+  \dot{x} &amp; = \sigma(y-x) \\
+  \dot{y} &amp; = \rho x - y - xz \\
+  \dot{z} &amp; = -\beta z + xy
+\end{aligned}
+\]</span></p>
+<p><span class="math display">\[
+&nbsp;&nbsp;&nbsp;\begin{bmatrix}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&amp;&nbsp;x&nbsp;&amp;&nbsp;0&nbsp;\\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&amp;&nbsp;1&nbsp;&amp;&nbsp;-1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}\begin{bmatrix}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;\\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;\\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=\begin{bmatrix}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1+xy&nbsp;&nbsp;\\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y-1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}.
+\]</span></p>
+<p>인라인 수식은 잘 들어갑니꽈? <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이얌~</p>
 </section></section>
 <section>
 <section id="how-to-change-background" class="title-slide slide level1 center">
@@ -724,11 +752,9 @@
 <span id="cb3-8"><a href="#cb3-8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
 <span id="cb3-9"><a href="#cb3-9"></a>ax.grid(<span class="va">True</span>)</span>
 <span id="cb3-10"><a href="#cb3-10"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<p><img data-src="index_files/figure-revealjs/cell-2-output-1.png" width="443" height="432"></p>
+
 </div>
-</div>
-</section></section>
+<img data-src="index_files/figure-revealjs/cell-2-output-1.png" class="r-stretch"></section></section>
 <section id="end-of-document" class="title-slide slide level1 center">
 <h1>End of Document</h1>
 
