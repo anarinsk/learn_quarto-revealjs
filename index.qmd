@@ -361,11 +361,9 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
-
-- 옵션 해설 
-  - `#| output-location: slide`: 별도의 슬라이드에 결과물 배치 
-  - `plt.style.use('seaborn-white')`: 스타일 설정  
-
+:::{ .nonincremental }
+- `plt.style.use('seaborn-white')`: 스타일 설정  
+:::
 ```{python}
 #| echo: false
 #| output-location: slide
