@@ -14,6 +14,7 @@ format:
         scrollable: true
         logo: "logo2.png"
         footer: "I'm an Anti-굥"
+        favicon: "favicon.ico"
         #self-contained: true
 ---
 
