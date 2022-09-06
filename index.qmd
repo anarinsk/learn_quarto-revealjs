@@ -316,9 +316,10 @@ This slide's background image fits the screen.
 :::{ .nonincremental }
 - 코드를 실행하기 위해서는 '환경'을 쓰는 게 좋다. 
   - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
-- ~~Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
+- ~~VS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
 - 이제 잘 지원한다! 
-  - `conda env`로 들어가서 VS Code에서 동일하게 사용하면 된다. 
+  - `conda env`로 환경 진입 후 VS Code에서 동일하게 사용하면 된다. 
+  - 이전 동작을 기억하는 듯 하다. 환경이 존재하면 그 환경으로 바로 잡아준다. 
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
   - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
