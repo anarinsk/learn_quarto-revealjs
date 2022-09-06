@@ -248,9 +248,12 @@ $$
         \end{bmatrix}.
 $$
 
-인라인 수식은 잘 들어갑니꽈? $y_i = \alpha + \beta x_i$는 회귀방정식이얌~ 
+인라인 수식은 잘 들어갑니꽈~ $y_i = \alpha + \beta x_i$는 회귀방정식이란 말이요~ 
 
-## 수식 표현을 테스트합니다. (`.smaller`) { .smaller }
+## 수식 표현을 테스트합니다.{ .smaller }
+
+::: {.nonincremental}
+- `{.smaller}`을 슬라이드 타이틀에 적용한 경우  
 
 $$
 \begin{aligned}
@@ -276,7 +279,8 @@ $$
         \end{bmatrix}.
 $$
 
-인라인 수식은 잘 들어갑니꽈? $y_i = \alpha + \beta x_i$는 회귀방정식이얌~ 
+인라인 수식은 잘 들어갑니꽈~ $y_i = \alpha + \beta x_i$는 회귀방정식이란 말이요~ 
+:::
 
 # How to change background 
 
@@ -311,14 +315,15 @@ This slide's background image fits the screen.
 
 :::{ .nonincremental }
 - 코드를 실행하기 위해서는 '환경'을 쓰는 게 좋다. 
-- python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
-- ~~Code Extension이 아직까지 환경을 제대로 지원하지 않는다.~~
-  - 이제 잘 지원한다. `conda env`로 들어가서 VS Code에서 동일하게 사용하면 된다. 
+  - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
+- ~~Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
+- 이제 잘 지원한다! `conda env`로 들어가서 VS Code에서 동일하게 사용하면 된다. 
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
-  - 대안은 그림 표현 역시 다크 테마에 맞추거나, 그림을 표현할 때는 밝은 테마를 쓰는 것이다. 
+  - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
+  - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
 :::
 
-## Testing code: 'dark_background'
+## Testing Code I
 
 ```{python}
 #| echo: true
@@ -339,7 +344,7 @@ ax.grid(True)
 plt.show()
 ```
 
-## Testing code: more customized
+## Testing Code II
 
 ```{.python code-line-numbers="|8"}
 #| echo: true

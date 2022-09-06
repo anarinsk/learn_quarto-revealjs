@@ -670,10 +670,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y-1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}.
 \]</span></p>
-<p>인라인 수식은 잘 들어갑니꽈? <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이얌~</p>
+<p>인라인 수식은 잘 들어갑니꽈~ <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이란 말이요~</p>
 </section>
-<section id="수식-표현을-테스트합니다.-.smaller" class="slide level2 smaller">
-<h2>수식 표현을 테스트합니다. (<code>.smaller</code>)</h2>
+<section id="수식-표현을-테스트합니다.-1" class="slide level2 smaller">
+<h2>수식 표현을 테스트합니다.</h2>
+<div>
+<ul>
+<li><code>{.smaller}</code>을 슬라이드 타이틀에 적용한 경우</li>
+</ul>
 <p><span class="math display">\[
 \begin{aligned}
   \dot{x} &amp; = \sigma(y-x) \\
@@ -695,7 +699,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y-1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\end{bmatrix}.
 \]</span></p>
-<p>인라인 수식은 잘 들어갑니꽈? <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이얌~</p>
+<p>인라인 수식은 잘 들어갑니꽈~ <span class="math inline">\(y_i = \alpha + \beta x_i\)</span>는 회귀방정식이란 말이요~</p>
+</div>
 </section></section>
 <section>
 <section id="how-to-change-background" class="title-slide slide level1 center">
@@ -736,21 +741,22 @@
 <h2>Use env</h2>
 <div>
 <ul>
-<li>코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.</li>
-<li>python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.</li>
-<li><del>Code Extension이 아직까지 환경을 제대로 지원하지 않는다.</del>
+<li>코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.
 <ul>
-<li>이제 잘 지원한다. <code>conda env</code>로 들어가서 VS Code에서 동일하게 사용하면 된다.</li>
+<li>python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.</li>
 </ul></li>
+<li><del>Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.</del></li>
+<li>이제 잘 지원한다! <code>conda env</code>로 들어가서 VS Code에서 동일하게 사용하면 된다.</li>
 <li>이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.
 <ul>
-<li>대안은 그림 표현 역시 다크 테마에 맞추거나, 그림을 표현할 때는 밝은 테마를 쓰는 것이다.</li>
+<li>그림 표현 역시 다크 테마에 맞추거나 (<code>Testing Code I</code>)</li>
+<li>그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (<code>Testing Code II</code>)</li>
 </ul></li>
 </ul>
 </div>
 </section>
-<section id="testing-code-dark_background" class="slide level2">
-<h2>Testing code: ‘dark_background’</h2>
+<section id="testing-code-i" class="slide level2">
+<h2>Testing Code I</h2>
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -774,8 +780,8 @@
 </div>
 </div>
 </section>
-<section id="testing-code-more-customized" class="slide level2">
-<h2>Testing code: more customized</h2>
+<section id="testing-code-ii" class="slide level2">
+<h2>Testing Code II</h2>
 <div class="sourceCode" id="cb3" data-code-line-numbers="|8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#| echo: true</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="co">#| label: fig-polar-2</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co">#| fig-cap: "A line plot on a polar axis wth customized style"</span></span>
