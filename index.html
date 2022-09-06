@@ -7,7 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.1.165">
 
   <meta name="author" content="anarinsk">
   <meta name="dcterms.date" content="2022-09-06">
@@ -737,7 +737,7 @@
 <h1>How to use code</h1>
 
 </section>
-<section id="use-env" class="slide level2">
+<section id="use-env" class="slide level2 smaller">
 <h2>Use env</h2>
 <div>
 <ul>
@@ -746,7 +746,10 @@
 <li>python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.</li>
 </ul></li>
 <li><del>Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.</del></li>
-<li>이제 잘 지원한다! <code>conda env</code>로 들어가서 VS Code에서 동일하게 사용하면 된다.</li>
+<li>이제 잘 지원한다!
+<ul>
+<li><code>conda env</code>로 들어가서 VS Code에서 동일하게 사용하면 된다.</li>
+</ul></li>
 <li>이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.
 <ul>
 <li>그림 표현 역시 다크 테마에 맞추거나 (<code>Testing Code I</code>)</li>
@@ -755,53 +758,62 @@
 </ul>
 </div>
 </section>
-<section id="testing-code-i" class="slide level2">
+<section id="testing-code-i" class="slide level2 smaller">
 <h2>Testing Code I</h2>
+<div class="sourceCode" id="cb2" data-code-line-numbers="|7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#| echo: true</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="co">#| label: fig-polar</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-7"><a href="#cb2-7"></a>plt.style.use(<span class="st">'dark_background'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb2-9"><a href="#cb2-9"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb2-10"><a href="#cb2-10"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
+<span id="cb2-11"><a href="#cb2-11"></a>ax.plot(theta, r)</span>
+<span id="cb2-12"><a href="#cb2-12"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb2-13"><a href="#cb2-13"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb2-14"><a href="#cb2-14"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div>
+<ul>
+<li><code>plt.style.use('dark_background')</code>: 다크 모드에 맞춘 스타일 설정</li>
+<li>한 턴 진행 후 아래 스크롤을 해서 결과를 확인!</li>
+</ul>
+</div>
+<div class="fragment">
 <div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb2-3"><a href="#cb2-3"></a>plt.style.use(<span class="st">'dark_background'</span>)</span>
-<span id="cb2-4"><a href="#cb2-4"></a>plt.rcParams[<span class="st">"figure.figsize"</span>] <span class="op">=</span> (<span class="dv">6</span>,<span class="dv">6</span>)</span>
-<span id="cb2-5"><a href="#cb2-5"></a></span>
-<span id="cb2-6"><a href="#cb2-6"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb2-7"><a href="#cb2-7"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb2-8"><a href="#cb2-8"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
-<span id="cb2-9"><a href="#cb2-9"></a>ax.plot(theta, r)</span>
-<span id="cb2-10"><a href="#cb2-10"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb2-11"><a href="#cb2-11"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb2-12"><a href="#cb2-12"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="fig-polar" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="index_files/figure-revealjs/fig-polar-output-1.png" width="502" height="494"></p>
+<p><img data-src="index_files/figure-revealjs/fig-polar-output-1.png" width="430" height="422"></p>
 <p></p><figcaption>Figure&nbsp;1: A line plot on a polar axis</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
+</div>
 </section>
-<section id="testing-code-ii" class="slide level2">
+<section id="testing-code-ii" class="slide level2 smaller">
 <h2>Testing Code II</h2>
-<div class="sourceCode" id="cb3" data-code-line-numbers="|8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#| echo: true</span></span>
+<div class="sourceCode" id="cb3" data-code-line-numbers="|7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#| echo: true</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="co">#| label: fig-polar-2</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co">#| fig-cap: "A line plot on a polar axis wth customized style"</span></span>
 <span id="cb3-4"><a href="#cb3-4"></a></span>
 <span id="cb3-5"><a href="#cb3-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb3-6"><a href="#cb3-6"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb3-7"><a href="#cb3-7"></a></span>
-<span id="cb3-8"><a href="#cb3-8"></a>plt.style.use(<span class="st">'seaborn-white'</span>)</span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="co">#plt.rcParams["figure.figsize"] = (6,6)</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a></span>
-<span id="cb3-11"><a href="#cb3-11"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb3-12"><a href="#cb3-12"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb3-13"><a href="#cb3-13"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
-<span id="cb3-14"><a href="#cb3-14"></a>ax.plot(theta, r)</span>
-<span id="cb3-15"><a href="#cb3-15"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb3-16"><a href="#cb3-16"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb3-17"><a href="#cb3-17"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-7"><a href="#cb3-7"></a>plt.style.use(<span class="st">'seaborn-white'</span>)</span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="co">#plt.rcParams["figure.figsize"] = (6,6)</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a></span>
+<span id="cb3-10"><a href="#cb3-10"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb3-11"><a href="#cb3-11"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb3-12"><a href="#cb3-12"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
+<span id="cb3-13"><a href="#cb3-13"></a>ax.plot(theta, r)</span>
+<span id="cb3-14"><a href="#cb3-14"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb3-15"><a href="#cb3-15"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb3-16"><a href="#cb3-16"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div>
 <ul>
-<li><code>plt.style.use('seaborn-white')</code>: 스타일 설정<br>
+<li><code>plt.style.use('seaborn-white')</code>: 적절한 백색 스타일<br>
 </li>
 </ul>
 </div>
@@ -810,7 +822,7 @@
 <div class="cell-output cell-output-display">
 <div id="fig-polar-2" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="index_files/figure-revealjs/fig-polar-2-output-1.png" width="502" height="494"></p>
+<p><img data-src="index_files/figure-revealjs/fig-polar-2-output-1.png" width="430" height="422"></p>
 <p></p><figcaption>Figure&nbsp;2: A line plot on a polar axis wth customized style</figcaption><p></p>
 </figure>
 </div>
