@@ -363,6 +363,8 @@ plt.show()
 :::{ .nonincremental }
 - `plt.style.use('seaborn-white')`: 스타일 설정  
 :::
+
+. . . 
 ```{python}
 #| echo: false
 #| output-location: slide
