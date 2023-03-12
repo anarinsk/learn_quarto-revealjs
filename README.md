@@ -13,3 +13,7 @@
 
 - 구현물은 [Completely useless presentation](https://anarinsk.github.io/learn_quarto-revealjs/#/title-slide)을 참고하라. 
 
+## Infos 
+
+- 폰트는 SUIT, SUITE, D2Coding을 웹폰트로 활용합니다. 자세한 내용은 `index.css` 파일을 참고. 
+

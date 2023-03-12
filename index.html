@@ -7,10 +7,9 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.2.269">
 
   <meta name="author" content="anarinsk">
-  <meta name="dcterms.date" content="2022-09-06">
   <title>This Is a Testflight</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -390,13 +389,20 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">This Is a Testflight</h1>
   <p class="subtitle">Completely useless presentation</p>
-  <p class="author"><a href="https://github.com/anarinsk/learn_quarto-revealjs/">anarinsk</a></p>
-  <p class="date">2022-09-06</p>
-</section>
 
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<a href="https://github.com/anarinsk/learn_quarto-revealjs/">anarinsk</a> 
+</div>
+</div>
+</div>
+
+  <p class="date">9/6/22</p>
+</section>
 <section id="disclaimer" class="title-slide slide level1 center">
 <h1>Disclaimer</h1>
 <p>This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from <a href="https://quarto.org/docs/presentations/revealjs/">Quarto-Revealjs</a>. <br> <br> 이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요. Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.</p>
@@ -786,7 +792,7 @@
 <div class="cell-output cell-output-display">
 <div id="fig-polar" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="index_files/figure-revealjs/fig-polar-output-1.png"></p>
+<p><img data-src="index_files/figure-revealjs/fig-polar-output-1.png" width="437" height="429"></p>
 <p></p><figcaption>Figure&nbsp;1: A line plot on a polar axis</figcaption><p></p>
 </figure>
 </div>
@@ -823,7 +829,7 @@
 <div class="cell-output cell-output-display">
 <div id="fig-polar-2" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="index_files/figure-revealjs/fig-polar-2-output-1.png"></p>
+<p><img data-src="index_files/figure-revealjs/fig-polar-2-output-1.png" width="437" height="429"></p>
 <p></p><figcaption>Figure&nbsp;2: A line plot on a polar axis wth customized style</figcaption><p></p>
 </figure>
 </div>
@@ -1089,7 +1095,24 @@
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -1127,24 +1150,42 @@
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>
