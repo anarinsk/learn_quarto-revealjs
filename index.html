@@ -94,7 +94,7 @@
     code span.wa { color: #dcc6e0; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.scss">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -592,40 +592,50 @@
 <div>
 <ul>
 <li><code>.qmd</code> 파일과 같은 위치에 <code>.css</code> 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.</li>
-<li>폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 <code>testflight.scss</code>를 보자.
+<li>폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 <code>index.scss</code>를 보자.
 <ul>
-<li>2-4 번 라인이 폰트를 입력하는 명령이다.</li>
-<li>나머지 아래는 각 양식 별로 폰트와 크기를 지정한다.</li>
+<li>1-3 번 라인이 폰트를 입력하는 명령이다.</li>
+<li>나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.</li>
 </ul></li>
 </ul>
 </div>
-<div class="sourceCode" id="cb1" data-code-line-numbers="2-4"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&amp;display=swap'); */</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'</span><span class="fu">)</span><span class="op">;</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">'https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'</span><span class="fu">)</span><span class="op">;</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css"</span><span class="fu">)</span><span class="op">;</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co">/*-- scss:rules --*/</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="fu">.reveal</span> h1<span class="op">,</span> </span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="fu">.reveal</span> h2<span class="op">,</span> </span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="fu">.reveal</span> h3<span class="op">,</span> </span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="fu">.reveal</span> h4<span class="op">,</span> </span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="fu">.reveal</span> h5<span class="op">,</span> </span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="fu">.reveal</span> h6 {</span>
-<span id="cb1-13"><a href="#cb1-13"></a>  <span class="kw">font-family</span>: <span class="st">'NanumSquare'</span> <span class="at">!important</span><span class="op">;</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a>  <span class="er">//text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);</span></span>
+<div class="sourceCode" id="cb1" data-code-line-numbers="2-4"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css"</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css"</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="im">@import</span> <span class="fu">url(</span><span class="st">"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/variable/woff2/SUITE-Variable.css"</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co">/*-- scss:rules --*/</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">.reveal</span> h1<span class="op">,</span> </span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="fu">.reveal</span> h2<span class="op">,</span> </span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="fu">.reveal</span> h3<span class="op">,</span> </span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="fu">.reveal</span> h4<span class="op">,</span> </span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="fu">.reveal</span> h5<span class="op">,</span> </span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="fu">.reveal</span> h6 {</span>
+<span id="cb1-12"><a href="#cb1-12"></a>  <span class="kw">font-family</span>: <span class="st">'SUITE Variable'</span><span class="op">,</span> <span class="dv">sans-serif</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a>  <span class="co">/* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a>  <span class="kw">font-weight</span>: <span class="dv">750</span><span class="op">;</span></span>
 <span id="cb1-15"><a href="#cb1-15"></a>}</span>
 <span id="cb1-16"><a href="#cb1-16"></a></span>
 <span id="cb1-17"><a href="#cb1-17"></a><span class="fu">.reveal</span> section p {</span>
-<span id="cb1-18"><a href="#cb1-18"></a>    <span class="kw">font-family</span>: <span class="st">'pretendard'</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>    <span class="kw">font-family</span>: <span class="st">'SUIT Variable'</span><span class="op">,</span> <span class="dv">sans-serif</span> <span class="at">!important</span><span class="op">;</span></span>
 <span id="cb1-19"><a href="#cb1-19"></a>    <span class="kw">font-size</span>: <span class="dv">90</span><span class="dt">%</span><span class="op">;</span></span>
 <span id="cb1-20"><a href="#cb1-20"></a>}</span>
 <span id="cb1-21"><a href="#cb1-21"></a></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="fu">.reveal</span> ul<span class="op">,</span> </span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="fu">.reveal</span> li<span class="op">,</span> </span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="fu">.reveal</span> ol{</span>
-<span id="cb1-25"><a href="#cb1-25"></a>    <span class="kw">font-family</span>: <span class="st">'pretendard'</span> <span class="at">!important</span><span class="op">;</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a>    <span class="kw">font-size</span>: <span class="dv">95</span><span class="dt">%</span><span class="op">;</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-22"><a href="#cb1-22"></a><span class="fu">.reveal</span> section pre code {</span>
+<span id="cb1-23"><a href="#cb1-23"></a>  <span class="kw">font-family</span>: <span class="st">'D2Coding'</span><span class="op">,</span> <span class="dv">monospace</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="kw">font-size</span>: <span class="dv">90</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a>}</span>
+<span id="cb1-26"><a href="#cb1-26"></a></span>
+<span id="cb1-27"><a href="#cb1-27"></a><span class="fu">.reveal</span> ul<span class="op">,</span> </span>
+<span id="cb1-28"><a href="#cb1-28"></a><span class="fu">.reveal</span> li<span class="op">,</span> </span>
+<span id="cb1-29"><a href="#cb1-29"></a><span class="fu">.reveal</span> ol {</span>
+<span id="cb1-30"><a href="#cb1-30"></a>    <span class="kw">font-family</span>: <span class="st">'SUIT Variable'</span><span class="op">,</span> <span class="dv">sans-serif</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-31"><a href="#cb1-31"></a>    <span class="kw">font-size</span>: <span class="dv">95</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb1-32"><a href="#cb1-32"></a>}</span>
+<span id="cb1-33"><a href="#cb1-33"></a></span>
+<span id="cb1-34"><a href="#cb1-34"></a><span class="fu">.reveal</span> code{</span>
+<span id="cb1-35"><a href="#cb1-35"></a>  <span class="kw">font-family</span>: <span class="st">'D2Coding'</span><span class="op">,</span> <span class="dv">monospace</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-36"><a href="#cb1-36"></a>  <span class="kw">font-size</span>: <span class="dv">95</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb1-37"><a href="#cb1-37"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="tabsets" class="title-slide slide level1 center">
