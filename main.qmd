@@ -5,21 +5,19 @@ author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
 date: "2022-09-06"
 format: 
     revealjs:
-        include-in-header: fonts.html
+        #include-in-header: fonts.html
         incremental: true   
-        theme: black
-        css: format.scss
+        #css:
+        theme: [black, format.scss]
         transition: concave
         background-transition: fade
         smaller: false
         scrollable: true
         logo: "logo2.png"
-        footer: "I'm an Anti-굥"
+        footer: "TEST FOR FOOTER"
         favicon: "favicon.ico"
         #self-contained: true
 ---
-
-<div w3-include-html="fonts.html"></div>
 
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
 <br>
