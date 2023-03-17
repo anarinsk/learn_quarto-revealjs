@@ -7,7 +7,7 @@ format:
     revealjs:
         incremental: true   
         theme: black
-        css: "index.scss"
+        css: format.scss
         transition: concave
         background-transition: fade
         smaller: false
@@ -18,7 +18,10 @@ format:
         #self-contained: true
 ---
 
-# Disclaimer 
+<link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css" rel="stylesheet">
+
 
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
 <br>
