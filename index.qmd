@@ -3,13 +3,11 @@ title: "This Is a Testflight"
 subtitle: "Completely useless presentation"
 author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
 date: "2022-09-06"
-resources: 
-    - "fonts.html"
 format: 
     revealjs:
         incremental: true   
         theme: black
-        css: format.scss
+        css: "index.scss"
         transition: concave
         background-transition: fade
         smaller: false
@@ -19,9 +17,8 @@ format:
         favicon: "favicon.ico"
         #self-contained: true
 ---
-<link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css" rel="stylesheet">
+
+<div w3-include-html="fonts.html"></div>
 
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
 <br>
