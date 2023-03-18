@@ -7,7 +7,7 @@
 ## How 
 
 - VS Code의 Quarto 플러그인을 활용했다. 
-- 문서 소스: `index.qmd`
+- 문서 소스: `main.qmd`
 
 ## What 
 
@@ -15,5 +15,10 @@
 
 ## Infos 
 
-- 폰트는 SUIT, SUITE, D2Coding을 웹폰트로 활용합니다. 자세한 내용은 `index.css` 파일을 참고. 
+- 폰트는 SUIT, SUITE, D2Coding을 웹폰트로 활용합니다. 자세한 내용은 `index.css` 파일을 참고.
+
+## Updates 
+
+- 폰트가 적용되지 않는 문제
+    - `theme`으로 css를 로딩 
 
