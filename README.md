@@ -21,4 +21,6 @@
 
 - 폰트가 적용되지 않는 문제
     - `theme`으로 css를 로딩 
+- math 폰트 조절 
+    - mathjax를 별도로 로딩하고 css에서 `STIX Two Text` 로딩
 
