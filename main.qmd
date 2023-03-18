@@ -18,10 +18,16 @@ format:
         #self-contained: true
 ---
 
+## Dismclaimer
+
+:::{.nonincremental}
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
-<br>
-<br>
-이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요. Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
+
+🐈🐈🐈
+
+- 이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
+- Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
+:::
 
 # In the Morning 
 
