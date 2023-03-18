@@ -1,7 +1,7 @@
 ---
 title: "This Is a Testflight"
 subtitle: "Completely useless presentation"
-author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
+author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2022-09-06"
 format: 
     revealjs:
