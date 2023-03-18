@@ -18,7 +18,7 @@ format:
         #self-contained: true
 ---
 
-## Dismclaimer
+## Dismclaimer{.center}
 
 :::{.nonincremental}
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
