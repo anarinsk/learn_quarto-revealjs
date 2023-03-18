@@ -5,10 +5,10 @@ author: "[anarinsk](https://github.com/anarinsk/learn_quarto-revealjs/)"
 date: "2022-09-06"
 format: 
     revealjs:
-        include-in-header: mathjax.html
+        include-in-header: [favicon.html, mathjax.html]
         incremental: true   
         #css:
-        theme: [black, format.scss]
+        theme: [format.scss, black]
         transition: concave
         background-transition: fade
         smaller: false
