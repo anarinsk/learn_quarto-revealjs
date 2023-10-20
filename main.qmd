@@ -391,7 +391,7 @@ plt.show()
 
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('seaborn-white')
+plt.style.use('seaborn-v0_8-white')
 #plt.rcParams["figure.figsize"] = (6,6)
 
 r = np.arange(0, 2, 0.01)
@@ -403,7 +403,7 @@ ax.grid(True)
 plt.show()
 ```
 :::{ .nonincremental }
-- `plt.style.use('seaborn-white')`: 적절한 백색 스타일  
+- `plt.style.use('seaborn-v0_8-white')`: 적절한 백색 스타일  
 :::
 
 . . . 
@@ -416,7 +416,7 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.style.use('seaborn-white')
+plt.style.use('seaborn-v0_8-white')
 #plt.rcParams["figure.figsize"] = (6,6)
 
 r = np.arange(0, 2, 0.01)
