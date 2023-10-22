@@ -334,7 +334,7 @@ This slide's background image fits the screen.
 - 이제 잘 지원한다! 
    - 문서 생성시 `F1 > Python 인터프리터 선택`으로 파이썬 실행 환경을 지정하자.
    - conda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.    
-   - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin> python`을 지정하면 된다.
+   - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin > python`을 지정하면 된다.
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
   - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
