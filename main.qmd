@@ -332,8 +332,9 @@ This slide's background image fits the screen.
   - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
 - ~~VS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
 - 이제 잘 지원한다! 
-  - `conda env`로 환경 진입 후 VS Code에서 동일하게 사용하면 된다. 
-  - 이전 동작을 기억하는 듯 하다. 환경이 존재하면 그 환경으로 바로 잡아준다. 
+   - 문서 생성시 `F1 > Python 인터프리터 선택`으로 파이썬 실행 환경을 지정하자.
+   - conda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.    
+   - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin> python`을 지정하면 된다.
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
   - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
