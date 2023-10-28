@@ -804,19 +804,21 @@
 <section id="testing-code-i" class="slide level2 smaller">
 <h2>Testing Code I</h2>
 <div class="sourceCode" id="cb2" data-code-line-numbers="|7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#| echo: true</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="co">#| label: fig-polar</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb2-7"><a href="#cb2-7"></a>plt.style.use(<span class="st">'dark_background'</span>)</span>
-<span id="cb2-8"><a href="#cb2-8"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb2-9"><a href="#cb2-9"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb2-10"><a href="#cb2-10"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
-<span id="cb2-11"><a href="#cb2-11"></a>ax.plot(theta, r)</span>
-<span id="cb2-12"><a href="#cb2-12"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb2-13"><a href="#cb2-13"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb2-14"><a href="#cb2-14"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="co">#| layout: [-5, 60, -5]</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co">#| fig-size: [10,10]</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="co">#| cap-align: center</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-9"><a href="#cb2-9"></a>plt.style.use(<span class="st">'dark_background'</span>)</span>
+<span id="cb2-10"><a href="#cb2-10"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb2-11"><a href="#cb2-11"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb2-12"><a href="#cb2-12"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"polar"</span>})</span>
+<span id="cb2-13"><a href="#cb2-13"></a>ax.plot(theta, r)</span>
+<span id="cb2-14"><a href="#cb2-14"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb2-15"><a href="#cb2-15"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb2-16"><a href="#cb2-16"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div>
 <ul>
 <li><code>plt.style.use('dark_background')</code>: 다크 모드에 맞춘 스타일 설정</li>
@@ -826,10 +828,10 @@
 <div class="fragment">
 <div id="cell-fig-polar" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center" height="429" width="437">
+<div id="fig-polar" class="quarto-figure quarto-figure-center" height="439" width="450">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img data-src="main_files/figure-revealjs/fig-polar-output-1.png" width="437" height="429">
+<img data-src="main_files/figure-revealjs/fig-polar-output-1.png" width="450" height="439">
 </div>
 <figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A line plot on a polar axis

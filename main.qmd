@@ -344,8 +344,10 @@ This slide's background image fits the screen.
 
 ```{.python  code-line-numbers="|7"}
 #| echo: true
-#| label: fig-polar
+#| layout: [-5, 60, -5]
+#| fig-size: [10,10]
 #| fig-cap: "A line plot on a polar axis"
+#| cap-align: center
 
 import numpy as np
 import matplotlib.pyplot as plt
