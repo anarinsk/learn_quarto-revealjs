@@ -23,4 +23,8 @@
     - `theme`으로 css를 로딩 
 - math 폰트 조절 
     - mathjax를 별도로 로딩하고 css에서 `STIX Two Text` 로딩
+- revealjs 옵션
+    - github pages를 쓰기 위해서는 `embed-resources: true`를 반드시 포함해야 한다.
+    - `_quarto.yml`을 포함하여 출력물 폴더는 `docs`로 설정한 후 pages 옵션에서 퍼블리시 하는 게 제일 편하다.
+    - https://quarto.org/docs/publishing/github-pages.html 첫번째 옵션 참고 
 
