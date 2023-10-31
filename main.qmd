@@ -5,6 +5,7 @@ author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2022-09-06"
 format: 
     revealjs:
+        embed-resources: true
         include-in-header: [favicon.html, mathjax.html]
         incremental: true   
         #css:
