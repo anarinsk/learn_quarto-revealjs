@@ -330,11 +330,11 @@ This slide's background image will be sized to 100px and repeated.
 - 코드를 실행하기 위해서는 '환경'을 쓰는 게 좋다. 
   - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
 - ~~VS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
-- 이제 잘 가상 환경을 잘 지원한다! 
+- 이제 가상 환경을 잘 지원한다! 
    - 문서 생성시 `F1 > Python 인터프리터 선택`으로 파이썬 실행 환경을 지정하자.
    - conda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.    
    - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin > python`을 지정하면 된다.
-   - 페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 코드 안 터미널에서 `>quarto render`를 통해 프로젝트를 컴파일하자. 
+   - 페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 VS Code 내 터미널에서 `>quarto render`를 통해 프로젝트를 컴파일하자. 
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
   - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
