@@ -17,7 +17,11 @@
 
 - 폰트는 SUIT, SUITE, D2Coding을 웹폰트로 활용합니다. 자세한 내용은 `index.css` 파일을 참고.
 
-## Updates 
+## Major Updates 
+
+-  🔗[경북대 취업특강](https://knu-techjobs.anari.dev/)을 통해 테스트한 내용을 본문에 반영
+
+## Miscellenous Updates 
 
 - 폰트가 적용되지 않는 문제
     - `theme`으로 css를 로딩 
