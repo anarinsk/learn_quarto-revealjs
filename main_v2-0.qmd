@@ -517,13 +517,14 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 ![시기 별 계산 능력의 변화 GO [🔗](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}](images/artificial-intelligence-training-computation.png)
 :::
 
-## Advanced Data Analysis{ .smaller }
+## Advanced Data Analysis{}
 
-:::{ .callout-note }
-제목은 그대로 쓰되, 그림과 링크만 가운데 정렬해보겠다. 
+:::{layout="[[1],[-1,1,-1],[-0.1]]"}
+
+:::{ .callout-note .smaller}
+제목은 그대로 쓰되 그림과 링크만 가운데 정렬해보겠다. 
 :::
 
-:::{layout="[[-0.1],[-1,1,-1],[-0.1]]"}
 ![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
 :::
 
