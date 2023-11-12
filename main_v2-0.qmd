@@ -473,8 +473,7 @@ This slide's background image fits the screen.
 
 이렇게 엠베딩이 가능하다. [🔗](https://quarto.org/docs/authoring/videos.html) 참고.
 
-{{< video https://www.youtube.com/watch?v=zWaymcVmJ-A 
-  width="90%" height="90%" >}}
+{{< video https://www.youtube.com/watch?v=XqZsoesa55w >}}
 
 ::: footer
 :::
@@ -516,24 +515,26 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 ![시기 별 계산 능력의 변화 GO [🔗](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}](images/artificial-intelligence-training-computation.png)
 :::
 
-## {
-    background-opacity="0.15"
-    style="text-align: center;"
-    .smaller
-    .center
-    }
+## Advanced Data Analysis{ .smaller }
 
-#### Advanced Data Analysis. GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}
-
-:::{layout="[-1,1,-1]"}
-![](/images/chatGPT4-da.png)
+:::{ .callout-note }
+제목은 그대로 쓰되, 그림과 링크만 가운데 정렬해보겠다. 
 :::
 
-link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
-
-:::{.footer} 
+:::{layout="[[-0.1],[-1,1,-1],[-0.1]]"}
+![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
 :::
 
+## 링크 설정하기 
+
+:::{ .nonincremental }
+- link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
+- 이미 앞 쪽에서 사용하고 있었다. 
+:::
+
+```qmd
+![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
+```
 ## Github Pages
 
 :::{.nonincremental}
@@ -556,15 +557,26 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 ## 그림 크기 및 위치
 
 :::{ .nonincremental }
-- 그림의 크기와 위치는 `![](...)` 방식으로 잘 걸리지 않는다. 
+- 그림의 크기와 위치는 `![](...)` 방식으로 설정이 쉽지 않다. 
 - 대신에 `layout="(...)"`으로 하면 편리하다. 
 - [🔗](https://quarto.org/docs/authoring/figures.html#complex-layouts)를 참고하자. 이 예시에서도 많이 사용되었다. 
 :::
 
 ```qmd
 :::{layout="[-0.1, 0.7, -0.1]"} # 수평 가운데 맞춤
-:::{layout="[-1, [-0.1, 0.7, -0.1], -1]"} # 수평 수직 가운데 맞춤
+:::{layout="[[-1], [-0.1, 0.7, -0.1], [-1]]"} # 수평 수직 가운데 맞춤
 ```
+
+## footer를 없애고 싶을 때 
+:::{ .nonincremental }
+- Slide에 아래과 같이 붙이자. 
+
+```qmd
+::: footer
+:::
+```
+- 아직 logo를 없애는 방법은 없다... 
+:::
 
 # End of Document
 

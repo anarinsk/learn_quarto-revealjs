@@ -452,7 +452,7 @@
     "href": "main_v2-0.html#section-4",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "Advanced Data Analysis. GO 🔗\n\n\n\n \n\n\n\n\n\n \n\n\n\nlink 뒤에 target=\"_blank\"를 붙이면 새 창에서 열린다."
+    "text": "GitHub Pages 설정에서 아래와 같이 설정하자."
   },
   {
     "objectID": "main_v2-0.html#github-pages",
@@ -473,7 +473,7 @@
     "href": "main_v2-0.html#그림-크기-및-위치",
     "title": "This Is a Testflight",
     "section": "그림 크기 및 위치",
-    "text": "그림 크기 및 위치\n\n\n그림의 크기와 위치는 ![](...) 방식으로 잘 걸리지 않는다.\n대신에 layout=\"(...)\"으로 하면 편리하다.\n🔗를 참고하자. 이 예시에서도 많이 사용되었다.\n\n\n:::{layout=\"[-0.1, 0.7, -0.1]\"} # 수평 가운데 맞춤\n:::{layout=\"[-1, [-0.1, 0.7, -0.1], -1]\"} # 수평 수직 가운데 맞춤"
+    "text": "그림 크기 및 위치\n\n\n그림의 크기와 위치는 ![](...) 방식으로 설정이 쉽지 않다.\n대신에 layout=\"(...)\"으로 하면 편리하다.\n🔗를 참고하자. 이 예시에서도 많이 사용되었다.\n\n\n:::{layout=\"[-0.1, 0.7, -0.1]\"} # 수평 가운데 맞춤\n:::{layout=\"[[-1], [-0.1, 0.7, -0.1], [-1]]\"} # 수평 수직 가운데 맞춤"
   },
   {
     "objectID": "main_v2-0.html#링크-걸기",
@@ -481,5 +481,26 @@
     "title": "This Is a Testflight",
     "section": "링크 걸기",
     "text": "링크 걸기\n\n\n\n \n\n\n\nAI는 무엇을 얼마나 잘하나? GO 🔗"
+  },
+  {
+    "objectID": "main_v2-0.html#advanced-data-analysis",
+    "href": "main_v2-0.html#advanced-data-analysis",
+    "title": "This Is a Testflight",
+    "section": "Advanced Data Analysis",
+    "text": "Advanced Data Analysis\n\n\n\n\n\n\nNote\n\n\n제목은 그대로 쓰되, 그림과 링크만 가운데 정렬해보겠다.\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n동영상 GO 🔗"
+  },
+  {
+    "objectID": "main_v2-0.html#링크-설정하기",
+    "href": "main_v2-0.html#링크-설정하기",
+    "title": "This Is a Testflight",
+    "section": "링크 설정하기",
+    "text": "링크 설정하기\n\n\nlink 뒤에 target=\"_blank\"를 붙이면 새 창에서 열린다.\n이미 앞 쪽에서 사용하고 있었다.\n\n\n![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target=\"_blank\"}](/images/chatGPT4-da.png)"
+  },
+  {
+    "objectID": "main_v2-0.html#footer를-없애고-싶을-때",
+    "href": "main_v2-0.html#footer를-없애고-싶을-때",
+    "title": "This Is a Testflight",
+    "section": "footer를 없애고 싶을 때",
+    "text": "footer를 없애고 싶을 때\n\n\nSlide에 아래과 같이 붙이자.\n\n::: footer\n:::\n\n아직 logo를 없애는 방법은 없다…"
   }
 ]
