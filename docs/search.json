@@ -4,7 +4,7 @@
     "href": "main_v2-0.html#disclaimer",
     "title": "This Is a Testflight",
     "section": "Disclaimer",
-    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.\n\n코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 구현 방법을 이해하실 수 있습니다."
+    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.\n\n슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 구현 방법을 이해하실 수 있습니다."
   },
   {
     "objectID": "main_v2-0.html#getting-up",
@@ -158,28 +158,28 @@
     "href": "main_v2-0.html#section",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "(A slide with no title)"
+    "text": "Go to the bathroom\nMake breakfast"
   },
   {
     "objectID": "main_v2-0.html#section-1",
     "href": "main_v2-0.html#section-1",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "(Another slide with no title)"
+    "text": "(A slide with no title)\n목차(왼쪽 아래 삼선)에 제목을 나오게 하려면 다음과 같이 처리하자.\n## {data-menu-title=\"타이틀 없는 슬라이드\" background-color=\"aquamarine\"}"
   },
   {
     "objectID": "main_v2-0.html#use-env",
     "href": "main_v2-0.html#use-env",
     "title": "This Is a Testflight",
     "section": "Use env",
-    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 코드 안 터미널에서 &gt; quarto render를 통해 프로젝트를 컴파일하자.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
+    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 가상 환경을 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 코드 안 터미널에서 &gt;quarto render를 통해 프로젝트를 컴파일하자.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
   },
   {
     "objectID": "main_v2-0.html#testing-code-i",
     "href": "main_v2-0.html#testing-code-i",
     "title": "This Is a Testflight",
     "section": "Testing Code I",
-    "text": "Testing Code I\n#| echo: true\n#| layout: [-5, 60, -5]\n#| fig-size: [10,10]\n#| fig-cap: \"A line plot on a polar axis\"\n#| cap-align: center\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('dark_background')\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('dark_background'): 다크 모드에 맞춘 스타일 설정\n한 턴 진행 후 아래 스크롤을 해서 결과를 확인!\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Testing Code I\n#| echo: true\n#| layout: [-5, 60, -5]\n#| fig-size: [10,10]\n#| fig-cap: \"A line plot on a polar axis\"\n#| cap-align: center\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('dark_background')\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('dark_background'): 다크 모드에 맞춘 스타일 설정\n한 턴 진행 후 스크롤을 해서 아래의 결과를 확인!\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "main_v2-0.html#testing-code-ii",
@@ -200,7 +200,7 @@
     "href": "main_v2-0.html#section-2",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”"
+    "text": "(Another slide with no title)"
   },
   {
     "objectID": "main_v2-0.html#동영상-임베딩",
@@ -242,14 +242,14 @@
     "href": "main_v2-0.html#section-3",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "Advanced Data Analysis. GO 🔗\n\n\n\n \n\n\n\n\n\n \n\n\n\nlink 뒤에 target=\"_blank\"를 붙이면 새 창에서 열린다."
+    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸면, 제목 등등도 모두 css의 적용을 받게 된다."
   },
   {
     "objectID": "main_v2-0.html#github-publish",
     "href": "main_v2-0.html#github-publish",
     "title": "This Is a Testflight",
     "section": "github publish",
-    "text": "github publish\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n\n렌더리에 필요한 .js 파일들이 함께 올라가야 웹에서 제대로 퍼블리시 된다.\n\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\ndocs에 넣고 퍼블리시 하는 방식을 권장한다. 🔗 참고하자."
+    "text": "github publish\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n\n렌더링에 필요한 .js 파일들이 함께 올라가야 웹에서 제대로 퍼블리시 된다. 처음만 올라가면 된다. 이후 동기화에서 이 파일들은 동기화되지 않는다.\n\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\n🔗 참고하자. 링크에 소개된 선택지 중에서 docs에 넣고 퍼블리시 하는 방식을 권장한다."
   },
   {
     "objectID": "main.html#disclaimer",
@@ -432,5 +432,26 @@
     "title": "This Is a Testflight",
     "section": "Testing Code II",
     "text": "Testing Code II\n#| echo: true\n#| label: fig-polar-2\n#| fig-cap: \"A line plot on a polar axis wth customized style\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('seaborn-v0_8-white')\n#plt.rcParams[\"figure.figsize\"] = (6,6)\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('seaborn-v0_8-white'): 적절한 백색 스타일\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A line plot on a polar axis wth customized style"
+  },
+  {
+    "objectID": "main_v2-0.html#slide3-id",
+    "href": "main_v2-0.html#slide3-id",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "(A slide with no title)"
+  },
+  {
+    "objectID": "main_v2-0.html#css-적용하기-i",
+    "href": "main_v2-0.html#css-적용하기-i",
+    "title": "This Is a Testflight",
+    "section": "css 적용하기 I",
+    "text": "css 적용하기 I\n슬라이드 내에서 ::: 블록 지정 후에 css를 적용할 수 있다.\n:::{style=\"color: yellow;\"}\nThis slide's background image fits the screen.\n:::\n위와 같이 적용하면 슬라이드 요소의 일부분에 css를 적용할 수 있다.\n\nThis slide’s background image fits the screen."
+  },
+  {
+    "objectID": "main_v2-0.html#section-4",
+    "href": "main_v2-0.html#section-4",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "Advanced Data Analysis. GO 🔗\n\n\n\n \n\n\n\n\n\n \n\n\n\nlink 뒤에 target=\"_blank\"를 붙이면 새 창에서 열린다."
   }
 ]
