@@ -116,7 +116,7 @@
     "href": "main_v2-0.html#수식-표현을-테스트합니다.",
     "title": "This Is a Testflight",
     "section": "수식 표현을 테스트합니다.",
-    "text": "수식 표현을 테스트합니다.\n\n\n\n\n\n\n\nNote\n\n\n{.smaller}을 슬라이드 타이틀에 적용한 경우\n\n\n\n\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
+    "text": "수식 표현을 테스트합니다.\n\n\n\n\n\n\nNote\n\n\n{.smaller}을 슬라이드 타이틀에 적용한 경우. 콜아웃 노트의 마크는 작아지지 않네…\n\n\n\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\] \\[\n\\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n\\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n\\end{bmatrix}\n      =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
   },
   {
     "objectID": "main_v2-0.html#sample-css",
@@ -228,7 +228,7 @@
     "href": "main_v2-0.html#url-프리뷰",
     "title": "This Is a Testflight",
     "section": "URL 프리뷰",
-    "text": "URL 프리뷰\nyml 설정에서 preview-links: true를 설정해둔다.\n\n\n페이지 안에서 링크가 열리는 장점이 있다.\n제대로 열리지 않는 페이지가 있다."
+    "text": "URL 프리뷰\nyml 설정에서 preview-links: true를 설정해둔다.\n\n\n페이지 안에서 링크가 열리는 장점이 있다.\n제대로 열리지 않는 페이지가 있다.\n\n\n[🔗](...){preview-link=\"true\"} 와 같이 {} 안에서 개별적으로 설정해서 쓸 수도 있다."
   },
   {
     "objectID": "main_v2-0.html#layout-쓰기",

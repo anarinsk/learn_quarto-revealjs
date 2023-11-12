@@ -19,7 +19,7 @@ format:
         scrollable: true
         logo: "logo2.png"
         footer: "TEST FOR FOOTER!"
-        preview-links: true
+        #preview-links: true
         #self-contained: true
 ---
 
@@ -207,8 +207,9 @@ $$
 
 ## 수식 표현을 테스트합니다.{ .smaller }
 
-:::{.callout-note .my-callout}
-`{.smaller}`을 슬라이드 타이틀에 적용한 경우  
+
+:::{ .callout-note}
+`{.smaller}`을 슬라이드 타이틀에 적용한 경우. 콜아웃 노트의 마크는 작아지지 않네...
 :::
 
 $$
@@ -218,24 +219,23 @@ $$
   \dot{z} & = -\beta z + xy
 \end{aligned} 
 $$
-
-
 $$
-   \begin{bmatrix}
+\begin{bmatrix}
                 1 & x & 0 \\
                 0 & 1 & -1
-        \end{bmatrix}\begin{bmatrix}
+\end{bmatrix}\begin{bmatrix}
                 1  \\
                 y  \\
                 1
-        \end{bmatrix}
-        =\begin{bmatrix}
+\end{bmatrix}
+      =\begin{bmatrix}
                 1+xy  \\
                 y-1
         \end{bmatrix}.
 $$
 
 인라인 수식은 잘 들어갑니꽈~ $y_i = \alpha + \beta x_i$는 회귀방정식이란 말이요~ 
+
 
 # 폰트 적용하기
 
@@ -433,7 +433,7 @@ plt.show()
 
 # Advanced Techniques
 
-## css 적용하기 I
+## css 적용하기 
 
 슬라이드 내에서 `:::` 블록 지정 후에 css를 적용할 수 있다. 
 
@@ -508,6 +508,8 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - 페이지 안에서 링크가 열리는 장점이 있다. 
 - 제대로 열리지 않는 페이지가 있다. 
 :::
+
+`[🔗](...){preview-link="true"}` 와 같이 `{}` 안에서 개별적으로 설정해서 쓸 수도 있다. 
 
 ## layout 쓰기 
 
