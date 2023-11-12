@@ -44,7 +44,7 @@ This is a testflight. In this slide, I will test some (nice) features of reveal.
 - (continued in the next slide... Hit proper key to continue)
 
 ---
-## {data-menu-title="Getting-up (TBC)"  }
+## {data-menu-title="Getting-up (cont'd)"  }
 
 - Go to the bathroom 
 - Make breakfast 
@@ -534,7 +534,7 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 :::{.footer} 
 :::
 
-## github publish{}
+## Github Pages
 
 :::{.nonincremental}
 - `embed-resources: true` 설정해야 퍼블리시에 문제가 없다. 
@@ -542,5 +542,27 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 - 깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 `docs`에 파일을 다 넣고 퍼블리시 하는 방식이다. 
 - [🔗](https://quarto.org/docs/publishing/github-pages.html) 참고하자. 링크에 소개된 선택지 중에서 `docs`에 넣고 퍼블리시 하는 방식을 권장한다. 
 :::
+
+## { data-menu-title="Github Publish (cont'd)" }
+
+:::{ .nonincremental}
+- GitHub Pages 설정에서 아래와 같이 설정하자. 
+:::
+
+:::{layout=[-0.5,10,-0.5]}
+![](/images/github-pages.png){ style="border: 3px solid #f5f5dc; padding: 3px;" }
+:::
+
+## 그림 크기 및 위치
+
+:::{ .nonincremental }
+- 그림의 크기와 위치는 `(...)` 내부 대신에 `layout="(...)"`으로 하는 것이 편리하다. 
+- [🔗](https://quarto.org/docs/authoring/figures.html#complex-layouts)를 참고하자. 이 예시에서도 많이 사용되었다. 
+:::
+
+```qmd
+:::{layout="[-0.1, 0.7, -0.1]"} # 수평 가운데 맞춤
+:::{layout="[-1, [-0.1, 0.7, -0.1], -1]"} # 수평 수직 가운데 맞춤
+```
 
 # End of Document
