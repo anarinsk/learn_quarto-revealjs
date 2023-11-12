@@ -3,13 +3,14 @@ title: "This Is a Testflight"
 subtitle: "Completely useless presentation"
 author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2023-11-12"
+fig-cap-location: top
 format: 
     revealjs:
         #toc: true
         #toc-depth: 1
-        embed-resources: true
+        
         include-in-header: [favicon.html, mathjax.html]
-        incremental: false   
+        incremental: true  
         #css:
         theme: [format.scss, black]
         transition: concave
@@ -31,9 +32,10 @@ This is a testflight. In this slide, I will test some (nice) features of reveal.
 
 - 이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
 - Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
+- 코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 구현 방법을 이해하실 수 있습니다.  
 :::
 
-# 기본적인 활용 요소들 살펴보기
+# 기본 활용
 
 :::{.callout-note}
 소스를 보면 쉽게 이해할 것
@@ -492,7 +494,46 @@ This slide's background image fits the screen.
 
 ## URL 프리뷰 
 
+yml 설정에서 `preview-links: true`를 설정해둔다.
 
+:::{.nonincremental}
+- 페이지 안에서 링크가 열리는 장점이 있다. 
+- 제대로 열리지 않는 페이지가 있다. 
+:::
+
+## layout 쓰기 
+
+:::{layout="[5, -0.2, 5]"}
+![계산능력 vs 효과. GO [🔗](https://ourworldindata.org/grapher/ai-performance-knowledge-tests-vs-training-computation){preview-link="true"}](images/ai-performance-knowledge-tests-vs-training-computation.png)
+
+![시기 별 계산 능력의 변화 GO [🔗](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}](images/artificial-intelligence-training-computation.png)
+:::
+
+## {
+    background-opacity="0.15"
+    style="text-align: center;"
+    .smaller
+    .center
+    }
+
+#### Advanced Data Analysis. GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}
+
+:::{layout="[-1,1,-1]"}
+![](/images/chatGPT4-da.png)
+:::
+
+link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
+
+:::{.footer} 
+:::
+
+## github publish{}
+
+:::{.nonincremental}
+- `embed-resources: true` 설정해야 퍼블리시에 문제가 없다. 
+- 깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 `docs`에 파일을 다 넣고 퍼블리시 하는 방식이다. 
+- `docs`에 넣고 퍼블리시 하는 방식을 권장한다. [🔗](https://quarto.org/docs/publishing/github-pages.html) 참고하자. 
+:::
 
 
 # End of Document

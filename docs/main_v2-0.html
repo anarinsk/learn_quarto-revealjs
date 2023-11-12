@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="main_v2-0_files/libs/clipboard/clipboard.min.js"></script>
-<script src="main_v2-0_files/libs/quarto-html/tabby.min.js"></script>
-<script src="main_v2-0_files/libs/quarto-html/popper.min.js"></script>
-<script src="main_v2-0_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="main_v2-0_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="main_v2-0_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="main_v2-0_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="main_v2-0_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.451">
 
   <meta name="author" content="anarinsk">
@@ -16,8 +16,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="main_v2-0_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="main_v2-0_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -96,11 +96,11 @@
     code span.vs { color: #abe338; } /* VerbatimString */
     code span.wa { color: #dcc6e0; } /* Warning */
   </style>
-  <link rel="stylesheet" href="main_v2-0_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="main_v2-0_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="main_v2-0_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="main_v2-0_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="main_v2-0_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -429,12 +429,14 @@
 <li>이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.</li>
 <li>Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.<br>
 </li>
+<li>코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 구현 방법을 이해하실 수 있습니다.<br>
+</li>
 </ul>
 </div>
 </section>
 <section>
-<section id="기본적인-활용-요소들-살펴보기" class="title-slide slide level1 center">
-<h1>기본적인 활용 요소들 살펴보기</h1>
+<section id="기본-활용" class="title-slide slide level1 center">
+<h1>기본 활용</h1>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -452,24 +454,24 @@
 <section id="getting-up" class="slide level2">
 <h2>Getting up</h2>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
-<li>(continued in the next slide… Hit proper key to continue)</li>
+<li class="fragment">Turn off alarm</li>
+<li class="fragment">Get out of bed</li>
+<li class="fragment">(continued in the next slide… Hit proper key to continue)</li>
 </ul>
 </section>
 <section class="slide level2">
 
 <ul>
-<li>Go to the bathroom</li>
-<li>Make breakfast</li>
+<li class="fragment">Go to the bathroom</li>
+<li class="fragment">Make breakfast</li>
 </ul>
 </section>
 <section id="해장술은-필요한가" class="slide level2">
 <h2>해장술은 필요한가?</h2>
 <ul>
-<li>필요하다면 주종은?</li>
-<li>해장술에 어울리는 안주는?</li>
-<li>국물이 필요한가?</li>
+<li class="fragment">필요하다면 주종은?</li>
+<li class="fragment">해장술에 어울리는 안주는?</li>
+<li class="fragment">국물이 필요한가?</li>
 </ul>
 <div class="fragment">
 <p><code>p</code>의 텍스트가 <code>ul</code>, <code>ol</code>의 텍스트와 달라 보이나요?</p>
@@ -478,8 +480,8 @@
 <section id="breakfast" class="slide level2">
 <h2>Breakfast</h2>
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li class="fragment">Eat eggs</li>
+<li class="fragment">Drink coffee</li>
 </ul>
 </section>
 <section id="footnote" class="slide level2">
@@ -554,15 +556,15 @@
 <section id="page-wo-.smaller" class="slide level2">
 <h2>Page w/o <code>{.smaller}</code></h2>
 <ul>
-<li>This is normal</li>
-<li>이게 보통 크기</li>
+<li class="fragment">This is normal</li>
+<li class="fragment">이게 보통 크기</li>
 </ul>
 </section>
 <section id="page-w-.smaller" class="slide level2 smaller">
 <h2>Page w <code>{.smaller}</code></h2>
 <ul>
-<li>This is smaller</li>
-<li>이게 작은 크기</li>
+<li class="fragment">This is smaller</li>
+<li class="fragment">이게 작은 크기</li>
 </ul>
 </section>
 <section id="스크롤이-가능한-슬라이드" class="slide level2 scrollable">
@@ -736,13 +738,13 @@
 <section id="꽉찬-벽지-i" class="slide level2" data-background-color="black" data-background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" data-background-size="cover" data-background-opacity="0.5">
 <h2>꽉찬 벽지 I</h2>
 <ul>
-<li><code>background-size="cover"</code>: 벽지를 슬라이드에 맞춘다. 그림은 임의로 확대된다.</li>
+<li class="fragment"><code>background-size="cover"</code>: 벽지를 슬라이드에 맞춘다. 그림은 임의로 확대된다.</li>
 </ul>
 </section>
 <section id="꽉찬-벽지-ii" class="slide level2" data-background-color="black" data-background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" data-background-size="contain" data-background-opacity="0.5">
 <h2>꽉찬 벽지 II</h2>
 <ul>
-<li><code>background-size="contain"</code>: 벽지를 슬라이드에 채워넣게 원본 그림 크기를 유지한다.</li>
+<li class="fragment"><code>background-size="contain"</code>: 벽지를 슬라이드에 채워넣게 원본 그림 크기를 유지한다.</li>
 </ul>
 </section>
 <section id="section" class="slide level2" data-background-color="aquamarine">
@@ -811,12 +813,12 @@
 <div class="cell-output cell-output-display">
 <div id="fig-polar" class="quarto-figure quarto-figure-center" height="429" width="437">
 <figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img data-src="main_v2-0_files/figure-revealjs/fig-polar-output-1.png" width="437" height="429">
-</div>
 <figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A line plot on a polar axis
 </figcaption>
+<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="main_v2-0_files/figure-revealjs/fig-polar-output-1.png" width="437" height="429">
+</div>
 </figure>
 </div>
 </div>
@@ -852,12 +854,12 @@ Figure&nbsp;1: A line plot on a polar axis
 <div class="cell-output cell-output-display">
 <div id="fig-polar-2" class="quarto-figure quarto-figure-center" height="429" width="437">
 <figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-polar-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img data-src="main_v2-0_files/figure-revealjs/fig-polar-2-output-1.png" width="437" height="429">
-</div>
 <figcaption class="figure quarto-float-caption quarto-float-fig" id="fig-polar-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: A line plot on a polar axis wth customized style
 </figcaption>
+<div aria-describedby="fig-polar-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="main_v2-0_files/figure-revealjs/fig-polar-2-output-1.png" width="437" height="429">
+</div>
 </figure>
 </div>
 </div>
@@ -914,8 +916,8 @@ Figure&nbsp;2: A line plot on a polar axis wth customized style
 </div>
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 77.8%;justify-content: center;">
 <figure>
-<p><img data-src="images/ai-performance-coding-math-knowledge-tests-2.png"></p>
 <figcaption>AI는 무엇을 얼마나 잘하나? GO <a href="https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests" data-preview-link="true">🔗</a></figcaption>
+<p><img data-src="images/ai-performance-coding-math-knowledge-tests-2.png"></p>
 </figure>
 </div>
 <div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 11.1%;justify-content: center;">
@@ -926,9 +928,70 @@ Figure&nbsp;2: A line plot on a polar axis wth customized style
 </section>
 <section id="url-프리뷰" class="slide level2">
 <h2>URL 프리뷰</h2>
+<p>yml 설정에서 <code>preview-links: true</code>를 설정해둔다.</p>
+<div>
+<ul>
+<li>페이지 안에서 링크가 열리는 장점이 있다.</li>
+<li>제대로 열리지 않는 페이지가 있다.</li>
+</ul>
+</div>
+</section>
+<section id="layout-쓰기" class="slide level2">
+<h2>layout 쓰기</h2>
+<div class="quarto-layout-panel" data-layout="[5, -0.2, 5]">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 49.0%;justify-content: center;">
+<figure>
+<figcaption>계산능력 vs 효과. GO <a href="https://ourworldindata.org/grapher/ai-performance-knowledge-tests-vs-training-computation" data-preview-link="true">🔗</a></figcaption>
+<p><img data-src="images/ai-performance-knowledge-tests-vs-training-computation.png"></p>
+</figure>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 2.0%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 49.0%;justify-content: center;">
+<figure>
+<figcaption>시기 별 계산 능력의 변화 GO <a href="https://ourworldindata.org/grapher/artificial-intelligence-training-computation" data-preview-link="true">🔗</a></figcaption>
+<p><img data-src="images/artificial-intelligence-training-computation.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="section-3" class="slide level2 smaller center" data-background-opacity="0.15" style="text-align: center;">
+<h2></h2>
+<h4 id="advanced-data-analysis.-go">Advanced Data Analysis. GO <a href="https://youtu.be/SzTjGAO6fKo?t=220" target="_blank">🔗</a></h4>
+<div class="quarto-layout-panel" data-layout="[-1,1,-1]">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="./images/chatGPT4-da.png"></p>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<p>link 뒤에 <code>target="_blank"</code>를 붙이면 새 창에서 열린다.</p>
+<div class="footer">
+
+</div>
+</section>
+<section id="github-publish" class="slide level2">
+<h2>github publish</h2>
+<div>
+<ul>
+<li><code>embed-resources: true</code> 설정해야 퍼블리시에 문제가 없다.</li>
+<li>깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 <code>docs</code>에 파일을 다 넣고 퍼블리시 하는 방식이다.</li>
+<li><code>docs</code>에 넣고 퍼블리시 하는 방식을 권장한다. <a href="https://quarto.org/docs/publishing/github-pages.html">🔗</a> 참고하자.</li>
+</ul>
+</div>
 </section></section>
 <section id="end-of-document" class="title-slide slide level1 center">
 <h1>End of Document</h1>
+
 
 <img src="logo2.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>TEST FOR FOOTER!</p>
@@ -940,19 +1003,19 @@ Figure&nbsp;2: A line plot on a polar axis wth customized style
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="main_v2-0_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="main_v2-0_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="main_v2-0_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="main_v2-0_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
