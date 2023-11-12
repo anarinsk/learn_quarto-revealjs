@@ -172,7 +172,7 @@
     "href": "main_v2-0.html#use-env",
     "title": "This Is a Testflight",
     "section": "Use env",
-    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
+    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 코드 안 터미널에서 &gt; quarto render를 통해 프로젝트를 컴파일하자.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
   },
   {
     "objectID": "main_v2-0.html#testing-code-i",
