@@ -473,8 +473,8 @@ This slide's background image fits the screen.
 
 이렇게 엠베딩이 가능하다. [🔗](https://quarto.org/docs/authoring/videos.html) 참고.
 
-:::{layout=[-1,6,-1]}
-{{< video https://www.youtube.com/watch?v=XqZsoesa55w width="800" height="600" >}}
+:::{layout=[-1,20,-1]}
+{{< video https://www.youtube.com/watch?v=XqZsoesa55w width="1300" aspect-ratio="21x9" >}}
 :::
 
 ::: footer
