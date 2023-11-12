@@ -4,7 +4,7 @@
     "href": "main_v2-0.html#disclaimer",
     "title": "This Is a Testflight",
     "section": "Disclaimer",
-    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.\n\n슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 구현 방법을 이해하실 수 있습니다."
+    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.\n\n슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 좋습니다."
   },
   {
     "objectID": "main_v2-0.html#getting-up",
@@ -242,7 +242,7 @@
     "href": "main_v2-0.html#section-3",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸면, 제목 등등도 모두 css의 적용을 받게 된다."
+    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다."
   },
   {
     "objectID": "main_v2-0.html#github-publish",
@@ -473,6 +473,13 @@
     "href": "main_v2-0.html#그림-크기-및-위치",
     "title": "This Is a Testflight",
     "section": "그림 크기 및 위치",
-    "text": "그림 크기 및 위치\n\n\n그림의 크기와 위치는 (...) 내부 대신에 layout=\"(...)\"으로 하는 것이 편리하다.\n🔗를 참고하자. 이 예시에서도 많이 사용되었다.\n\n\n:::{layout=\"[-0.1, 0.7, -0.1]\"} # 수평 가운데 맞춤\n:::{layout=\"[-1, [-0.1, 0.7, -0.1], -1]\"} # 수평 수직 가운데 맞춤"
+    "text": "그림 크기 및 위치\n\n\n그림의 크기와 위치는 ![](...) 방식으로 잘 걸리지 않는다.\n대신에 layout=\"(...)\"으로 하면 편리하다.\n🔗를 참고하자. 이 예시에서도 많이 사용되었다.\n\n\n:::{layout=\"[-0.1, 0.7, -0.1]\"} # 수평 가운데 맞춤\n:::{layout=\"[-1, [-0.1, 0.7, -0.1], -1]\"} # 수평 수직 가운데 맞춤"
+  },
+  {
+    "objectID": "main_v2-0.html#링크-걸기",
+    "href": "main_v2-0.html#링크-걸기",
+    "title": "This Is a Testflight",
+    "section": "링크 걸기",
+    "text": "링크 걸기\n\n\n\n \n\n\n\nAI는 무엇을 얼마나 잘하나? GO 🔗"
   }
 ]

@@ -23,7 +23,7 @@ format:
         #self-contained: true
 ---
 
-## Disclaimer{.center}
+## Disclaimer{.center .smaller}
 
 :::{.nonincremental}
 This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
@@ -32,7 +32,7 @@ This is a testflight. In this slide, I will test some (nice) features of reveal.
 
 - 이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요. 
 - Quarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다.  
-- 슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. [소스](https://github.com/anarinsk/learn_quarto-revealjs/blob/main/main_v2-0.qmd)와 함께 보시면 구현 방법을 이해하실 수 있습니다.  
+- 슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. [소스](https://github.com/anarinsk/learn_quarto-revealjs/blob/main/main_v2-0.qmd)와 함께 보시면 좋습니다.  
 :::
 
 # 기본 활용
@@ -466,17 +466,17 @@ This slide's background image fits the screen.
 #### "슬라이드 타이틀 태그(`##`)뒤에 `style`로 css 적용하자." 
 
 :::{.callout-note style="text-align: left;"}
-단 이렇게 걸면, 제목 등등도 모두 css의 적용을 받게 된다. 
+단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다. 
 :::
 
-## 동영상 임베딩 
+## 동영상 임베딩 {}
 
 이렇게 엠베딩이 가능하다. [🔗](https://quarto.org/docs/authoring/videos.html) 참고.
 
 {{< video https://www.youtube.com/watch?v=zWaymcVmJ-A 
   width="90%" height="90%" >}}
 
-:::footer
+::: footer
 :::
 
 ## 백그라운드 동영상 재생{
@@ -493,7 +493,7 @@ This slide's background image fits the screen.
 ::: footer 
 :::
 
-## 그림으로 링크걸기 {.smaller}
+## 링크 걸기 {.smaller}
 
 :::{layout="[-0.1, 0.7, -0.1]"}
 ![AI는 무엇을 얼마나 잘하나? GO [🔗](https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests){preview-link="true"}](images/ai-performance-coding-math-knowledge-tests-2.png){fig-align="center"}
@@ -556,7 +556,8 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 ## 그림 크기 및 위치
 
 :::{ .nonincremental }
-- 그림의 크기와 위치는 `(...)` 내부 대신에 `layout="(...)"`으로 하는 것이 편리하다. 
+- 그림의 크기와 위치는 `![](...)` 방식으로 잘 걸리지 않는다. 
+- 대신에 `layout="(...)"`으로 하면 편리하다. 
 - [🔗](https://quarto.org/docs/authoring/figures.html#complex-layouts)를 참고하자. 이 예시에서도 많이 사용되었다. 
 :::
 
@@ -566,3 +567,6 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 ```
 
 # End of Document
+
+::: footer
+:::
