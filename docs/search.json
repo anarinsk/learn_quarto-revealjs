@@ -1,187 +1,5 @@
 [
   {
-    "objectID": "main.html#disclaimer",
-    "href": "main.html#disclaimer",
-    "title": "This Is a Testflight",
-    "section": "Disclaimer",
-    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
-  },
-  {
-    "objectID": "main.html#getting-up",
-    "href": "main.html#getting-up",
-    "title": "This Is a Testflight",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed\n(continued in the next slide… Hit proper key to continue)"
-  },
-  {
-    "objectID": "main.html#해장술은-필요한가",
-    "href": "main.html#해장술은-필요한가",
-    "title": "This Is a Testflight",
-    "section": "해장술은 필요한가?",
-    "text": "해장술은 필요한가?\n\n필요하다면 주종은?\n해장술에 어울리는 안주는?\n국물이 필요한가?\n\n\np의 텍스트가 ul, ol의 텍스트와 달라 보이나요?"
-  },
-  {
-    "objectID": "main.html#breakfast",
-    "href": "main.html#breakfast",
-    "title": "This Is a Testflight",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
-  },
-  {
-    "objectID": "main.html#dinner",
-    "href": "main.html#dinner",
-    "title": "This Is a Testflight",
-    "section": "Dinner",
-    "text": "Dinner\n\nEat spaghetti\nDrink wine"
-  },
-  {
-    "objectID": "main.html#going-to-sleep",
-    "href": "main.html#going-to-sleep",
-    "title": "This Is a Testflight",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
-  },
-  {
-    "objectID": "main.html#footnote",
-    "href": "main.html#footnote",
-    "title": "This Is a Testflight",
-    "section": "Footnote",
-    "text": "Footnote\n\n\nGreen 1\nBrown\nPurple\n한글과 조화롭나요?\n\n\n\n\nSome additional commentary of more peripheral interest.\nA footnote"
-  },
-  {
-    "objectID": "main.html#incremental-activated",
-    "href": "main.html#incremental-activated",
-    "title": "This Is a Testflight",
-    "section": "Incremental activated",
-    "text": "Incremental activated\n\n\nEat spaghetti\nDrink wine"
-  },
-  {
-    "objectID": "main.html#inscremental-deactivated",
-    "href": "main.html#inscremental-deactivated",
-    "title": "This Is a Testflight",
-    "section": "Inscremental deactivated",
-    "text": "Inscremental deactivated\n\n\nEat spaghetti\nDrink wine"
-  },
-  {
-    "objectID": "main.html#slide-with-a-pause",
-    "href": "main.html#slide-with-a-pause",
-    "title": "This Is a Testflight",
-    "section": "Slide with a pause",
-    "text": "Slide with a pause\ncontent before the pause\n\ncontent after the pause"
-  },
-  {
-    "objectID": "main.html#example",
-    "href": "main.html#example",
-    "title": "This Is a Testflight",
-    "section": "Example",
-    "text": "Example\n\n\n\nLeft column\n\nThis is left column.\n40% is allocated.\n\n\nRight column\n\n이쪽은 오른쪽 열입니다.\n60%가 할당되어 있지요!"
-  },
-  {
-    "objectID": "main.html#page-wo-.smaller",
-    "href": "main.html#page-wo-.smaller",
-    "title": "This Is a Testflight",
-    "section": "Page w/o {.smaller}",
-    "text": "Page w/o {.smaller}\n\nThis is normal\n이게 보통 크기"
-  },
-  {
-    "objectID": "main.html#page-w-.smaller",
-    "href": "main.html#page-w-.smaller",
-    "title": "This Is a Testflight",
-    "section": "Page w {.smaller}",
-    "text": "Page w {.smaller}\n\nThis is smaller\n이게 작은 크기"
-  },
-  {
-    "objectID": "main.html#스크롤이-가능한-슬라이드",
-    "href": "main.html#스크롤이-가능한-슬라이드",
-    "title": "This Is a Testflight",
-    "section": "스크롤이 가능한 슬라이드",
-    "text": "스크롤이 가능한 슬라이드\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
-  },
-  {
-    "objectID": "main.html#sample-css",
-    "href": "main.html#sample-css",
-    "title": "This Is a Testflight",
-    "section": "sample css",
-    "text": "sample css\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 폰트를 입력하는 명령이다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
-  },
-  {
-    "objectID": "main.html#탭셋을-적용해보자.",
-    "href": "main.html#탭셋을-적용해보자.",
-    "title": "This Is a Testflight",
-    "section": "탭셋을 적용해보자.",
-    "text": "탭셋을 적용해보자.\n\nTab ATab B\n\n\nContent for Tab A\n봉준호가 깐느봉일까요?\n\n\nContent for Tab B\n박찬욱이 깐느박일까요?"
-  },
-  {
-    "objectID": "main.html#수식-표현을-테스트합니다.",
-    "href": "main.html#수식-표현을-테스트합니다.",
-    "title": "This Is a Testflight",
-    "section": "수식 표현을 테스트합니다.",
-    "text": "수식 표현을 테스트합니다.\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
-  },
-  {
-    "objectID": "main.html#수식-표현을-테스트합니다.-1",
-    "href": "main.html#수식-표현을-테스트합니다.-1",
-    "title": "This Is a Testflight",
-    "section": "수식 표현을 테스트합니다.",
-    "text": "수식 표현을 테스트합니다.\n\n\n{.smaller}을 슬라이드 타이틀에 적용한 경우\n\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
-  },
-  {
-    "objectID": "main.html#slide-aquamarine",
-    "href": "main.html#slide-aquamarine",
-    "title": "This Is a Testflight",
-    "section": "Slide, aquamarine",
-    "text": "Slide, aquamarine\nThis changes color of background!"
-  },
-  {
-    "objectID": "main.html#크기-지정-벽지",
-    "href": "main.html#크기-지정-벽지",
-    "title": "This Is a Testflight",
-    "section": "크기 지정 벽지",
-    "text": "크기 지정 벽지\nThis slide’s background image will be sized to 100px and repeated."
-  },
-  {
-    "objectID": "main.html#꽉찬-벽지",
-    "href": "main.html#꽉찬-벽지",
-    "title": "This Is a Testflight",
-    "section": "꽉찬 벽지",
-    "text": "꽉찬 벽지\n\nThis slide’s background image fits the screen.\n\n\nFont color is changed locally."
-  },
-  {
-    "objectID": "main.html#section",
-    "href": "main.html#section",
-    "title": "This Is a Testflight",
-    "section": "",
-    "text": "(A slide with no title)"
-  },
-  {
-    "objectID": "main.html#section-1",
-    "href": "main.html#section-1",
-    "title": "This Is a Testflight",
-    "section": "",
-    "text": "(Another slide with no title)"
-  },
-  {
-    "objectID": "main.html#use-env",
-    "href": "main.html#use-env",
-    "title": "This Is a Testflight",
-    "section": "Use env",
-    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
-  },
-  {
-    "objectID": "main.html#testing-code-i",
-    "href": "main.html#testing-code-i",
-    "title": "This Is a Testflight",
-    "section": "Testing Code I",
-    "text": "Testing Code I\n#| echo: true\n#| layout: [-5, 60, -5]\n#| fig-size: [10,10]\n#| fig-cap: \"A line plot on a polar axis\"\n#| cap-align: center\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('dark_background')\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('dark_background'): 다크 모드에 맞춘 스타일 설정\n한 턴 진행 후 아래 스크롤을 해서 결과를 확인!\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "main.html#testing-code-ii",
-    "href": "main.html#testing-code-ii",
-    "title": "This Is a Testflight",
-    "section": "Testing Code II",
-    "text": "Testing Code II\n#| echo: true\n#| label: fig-polar-2\n#| fig-cap: \"A line plot on a polar axis wth customized style\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('seaborn-v0_8-white')\n#plt.rcParams[\"figure.figsize\"] = (6,6)\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('seaborn-v0_8-white'): 적절한 백색 스타일\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A line plot on a polar axis wth customized style"
-  },
-  {
     "objectID": "main_v2-0.html#disclaimer",
     "href": "main_v2-0.html#disclaimer",
     "title": "This Is a Testflight",
@@ -434,10 +252,185 @@
     "text": "github publish\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\ndocs에 넣고 퍼블리시 하는 방식을 권장한다. 🔗 참고하자."
   },
   {
-    "objectID": "main_v2-0.html#github-publish.incrementalfalse",
-    "href": "main_v2-0.html#github-publish.incrementalfalse",
+    "objectID": "main.html#disclaimer",
+    "href": "main.html#disclaimer",
     "title": "This Is a Testflight",
-    "section": "github publish{.incremental=“false”}",
-    "text": "github publish{.incremental=“false”}\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n퍼블리시 방식이 바뀌었다. docs에 넣고 퍼블리시 하는 방식을 권장한다."
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nThis is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다."
+  },
+  {
+    "objectID": "main.html#getting-up",
+    "href": "main.html#getting-up",
+    "title": "This Is a Testflight",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed\n(continued in the next slide… Hit proper key to continue)"
+  },
+  {
+    "objectID": "main.html#해장술은-필요한가",
+    "href": "main.html#해장술은-필요한가",
+    "title": "This Is a Testflight",
+    "section": "해장술은 필요한가?",
+    "text": "해장술은 필요한가?\n\n필요하다면 주종은?\n해장술에 어울리는 안주는?\n국물이 필요한가?\n\n\np의 텍스트가 ul, ol의 텍스트와 달라 보이나요?"
+  },
+  {
+    "objectID": "main.html#breakfast",
+    "href": "main.html#breakfast",
+    "title": "This Is a Testflight",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "main.html#dinner",
+    "href": "main.html#dinner",
+    "title": "This Is a Testflight",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "main.html#going-to-sleep",
+    "href": "main.html#going-to-sleep",
+    "title": "This Is a Testflight",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "main.html#footnote",
+    "href": "main.html#footnote",
+    "title": "This Is a Testflight",
+    "section": "Footnote",
+    "text": "Footnote\n\n\nGreen 1\nBrown\nPurple\n한글과 조화롭나요?\n\n\n\n\nSome additional commentary of more peripheral interest.\nA footnote"
+  },
+  {
+    "objectID": "main.html#incremental-activated",
+    "href": "main.html#incremental-activated",
+    "title": "This Is a Testflight",
+    "section": "Incremental activated",
+    "text": "Incremental activated\n\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "main.html#inscremental-deactivated",
+    "href": "main.html#inscremental-deactivated",
+    "title": "This Is a Testflight",
+    "section": "Inscremental deactivated",
+    "text": "Inscremental deactivated\n\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "main.html#slide-with-a-pause",
+    "href": "main.html#slide-with-a-pause",
+    "title": "This Is a Testflight",
+    "section": "Slide with a pause",
+    "text": "Slide with a pause\ncontent before the pause\n\ncontent after the pause"
+  },
+  {
+    "objectID": "main.html#example",
+    "href": "main.html#example",
+    "title": "This Is a Testflight",
+    "section": "Example",
+    "text": "Example\n\n\n\nLeft column\n\nThis is left column.\n40% is allocated.\n\n\nRight column\n\n이쪽은 오른쪽 열입니다.\n60%가 할당되어 있지요!"
+  },
+  {
+    "objectID": "main.html#page-wo-.smaller",
+    "href": "main.html#page-wo-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page w/o {.smaller}",
+    "text": "Page w/o {.smaller}\n\nThis is normal\n이게 보통 크기"
+  },
+  {
+    "objectID": "main.html#page-w-.smaller",
+    "href": "main.html#page-w-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page w {.smaller}",
+    "text": "Page w {.smaller}\n\nThis is smaller\n이게 작은 크기"
+  },
+  {
+    "objectID": "main.html#스크롤이-가능한-슬라이드",
+    "href": "main.html#스크롤이-가능한-슬라이드",
+    "title": "This Is a Testflight",
+    "section": "스크롤이 가능한 슬라이드",
+    "text": "스크롤이 가능한 슬라이드\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
+  },
+  {
+    "objectID": "main.html#sample-css",
+    "href": "main.html#sample-css",
+    "title": "This Is a Testflight",
+    "section": "sample css",
+    "text": "sample css\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 폰트를 입력하는 명령이다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
+  },
+  {
+    "objectID": "main.html#탭셋을-적용해보자.",
+    "href": "main.html#탭셋을-적용해보자.",
+    "title": "This Is a Testflight",
+    "section": "탭셋을 적용해보자.",
+    "text": "탭셋을 적용해보자.\n\nTab ATab B\n\n\nContent for Tab A\n봉준호가 깐느봉일까요?\n\n\nContent for Tab B\n박찬욱이 깐느박일까요?"
+  },
+  {
+    "objectID": "main.html#수식-표현을-테스트합니다.",
+    "href": "main.html#수식-표현을-테스트합니다.",
+    "title": "This Is a Testflight",
+    "section": "수식 표현을 테스트합니다.",
+    "text": "수식 표현을 테스트합니다.\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
+  },
+  {
+    "objectID": "main.html#수식-표현을-테스트합니다.-1",
+    "href": "main.html#수식-표현을-테스트합니다.-1",
+    "title": "This Is a Testflight",
+    "section": "수식 표현을 테스트합니다.",
+    "text": "수식 표현을 테스트합니다.\n\n\n{.smaller}을 슬라이드 타이틀에 적용한 경우\n\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식이란 말이요~"
+  },
+  {
+    "objectID": "main.html#slide-aquamarine",
+    "href": "main.html#slide-aquamarine",
+    "title": "This Is a Testflight",
+    "section": "Slide, aquamarine",
+    "text": "Slide, aquamarine\nThis changes color of background!"
+  },
+  {
+    "objectID": "main.html#크기-지정-벽지",
+    "href": "main.html#크기-지정-벽지",
+    "title": "This Is a Testflight",
+    "section": "크기 지정 벽지",
+    "text": "크기 지정 벽지\nThis slide’s background image will be sized to 100px and repeated."
+  },
+  {
+    "objectID": "main.html#꽉찬-벽지",
+    "href": "main.html#꽉찬-벽지",
+    "title": "This Is a Testflight",
+    "section": "꽉찬 벽지",
+    "text": "꽉찬 벽지\n\nThis slide’s background image fits the screen.\n\n\nFont color is changed locally."
+  },
+  {
+    "objectID": "main.html#section",
+    "href": "main.html#section",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "(A slide with no title)"
+  },
+  {
+    "objectID": "main.html#section-1",
+    "href": "main.html#section-1",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "(Another slide with no title)"
+  },
+  {
+    "objectID": "main.html#use-env",
+    "href": "main.html#use-env",
+    "title": "This Is a Testflight",
+    "section": "Use env",
+    "text": "Use env\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 잘 지원한다!\n\n문서 생성시 F1 &gt; Python 인터프리터 선택으로 파이썬 실행 환경을 지정하자.\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
+  },
+  {
+    "objectID": "main.html#testing-code-i",
+    "href": "main.html#testing-code-i",
+    "title": "This Is a Testflight",
+    "section": "Testing Code I",
+    "text": "Testing Code I\n#| echo: true\n#| layout: [-5, 60, -5]\n#| fig-size: [10,10]\n#| fig-cap: \"A line plot on a polar axis\"\n#| cap-align: center\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('dark_background')\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('dark_background'): 다크 모드에 맞춘 스타일 설정\n한 턴 진행 후 아래 스크롤을 해서 결과를 확인!\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "main.html#testing-code-ii",
+    "href": "main.html#testing-code-ii",
+    "title": "This Is a Testflight",
+    "section": "Testing Code II",
+    "text": "Testing Code II\n#| echo: true\n#| label: fig-polar-2\n#| fig-cap: \"A line plot on a polar axis wth customized style\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('seaborn-v0_8-white')\n#plt.rcParams[\"figure.figsize\"] = (6,6)\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('seaborn-v0_8-white'): 적절한 백색 스타일\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A line plot on a polar axis wth customized style"
   }
 ]
