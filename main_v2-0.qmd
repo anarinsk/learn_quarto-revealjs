@@ -469,7 +469,7 @@ This slide's background image fits the screen.
 단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다. 
 :::
 
-## 동영상 임베딩 I
+## 동영상 임베딩
 
 이렇게 엠베딩이 가능하다. [🔗](https://quarto.org/docs/authoring/videos.html) 참고.
 
