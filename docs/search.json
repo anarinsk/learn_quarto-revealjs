@@ -249,7 +249,7 @@
     "href": "main_v2-0.html#github-publish",
     "title": "This Is a Testflight",
     "section": "github publish",
-    "text": "github publish\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\ndocs에 넣고 퍼블리시 하는 방식을 권장한다. 🔗 참고하자."
+    "text": "github publish\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n\n렌더리에 필요한 .js 파일들이 함께 올라가야 웹에서 제대로 퍼블리시 된다.\n\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\ndocs에 넣고 퍼블리시 하는 방식을 권장한다. 🔗 참고하자."
   },
   {
     "objectID": "main.html#disclaimer",

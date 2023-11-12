@@ -531,6 +531,7 @@ link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
 
 :::{.nonincremental}
 - `embed-resources: true` 설정해야 퍼블리시에 문제가 없다. 
+  - 렌더리에 필요한 `.js` 파일들이 함께 올라가야 웹에서 제대로 퍼블리시 된다. 
 - 깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 `docs`에 파일을 다 넣고 퍼블리시 하는 방식이다. 
 - `docs`에 넣고 퍼블리시 하는 방식을 권장한다. [🔗](https://quarto.org/docs/publishing/github-pages.html) 참고하자. 
 :::
