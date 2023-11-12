@@ -8,7 +8,7 @@ format:
     revealjs:
         #toc: true
         #toc-depth: 1
-        
+        embed-resources: trueix
         include-in-header: [favicon.html, mathjax.html]
         incremental: true  
         #css:
