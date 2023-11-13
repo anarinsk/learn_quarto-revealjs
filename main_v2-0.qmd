@@ -480,7 +480,7 @@ This slide's background image fits the screen.
 ::: footer
 :::
 
-## 백그라운드 동영상 재생{
+## 백그라운드 동영상 재생 I{
   background-video="https://media.newyorker.com/clips/63e3dabdbe5bf9d9d559c90d/master/pass/Chiang_final.mp4" 
   background-video-loop="true" 
   background-video-muted="true" 
@@ -490,6 +490,16 @@ This slide's background image fits the screen.
 
 ### Ted Chiang, ["A blurry JPEG of the web"](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web){target="_blank"}
 
+## 백그라운드 동영상 재생 II{ background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" background-opacity=0.35 }
+
+:::{ .nonincremental}
+- `background-video`로는 유튜브 영상을 넣을 수 없다. 
+- 대신에 `background-iframe`으로 넣으면 된다. 단 유튜브의 경우 링크는 `www.youtube.com/embed/...`으로 넣어야 한다.
+- 파라미터
+  - `&autoplay`: 1이면 자동 재생
+  - `&mute`: 1이면 음소거
+  - `&loop`: 1이면 반복 재생. `&playlist`와 함께 써야 한다. 
+:::
 
 ::: footer 
 :::
@@ -549,7 +559,7 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - [🔗](https://quarto.org/docs/publishing/github-pages.html) 참고하자. 링크에 소개된 선택지 중에서 `docs`에 넣고 퍼블리시 하는 방식을 권장한다. 
 :::
 
-## { data-menu-title="Github Publish (cont'd)" }
+## { data-menu-title="GitHub Pages (cont'd)" }
 
 :::{ .nonincremental}
 - GitHub Pages 설정에서 아래와 같이 설정하자. 
@@ -581,18 +591,6 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 :::
 ```
 - 아직 logo를 없애는 방법은 없다... 
-:::
-
-## Background video{background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" background-opacity=0.35}
-
-:::{ .nonincremental}
-- `background-video`로는 유튜브 영상을 넣을 수 없다. 
-- 대신에 `background-iframe`으로 넣으면 된다. 단 유튜브의 경우 링크는 `www.youtube.com/embed/...`으로 넣어야 한다.
-- 파라미터
-  - `&autoplay`: 1이면 자동 재생
-  - `&mute`: 1이면 음소거
-  - `&loop`: 1이면 반복 재생. `&playlist`와 함께 써야 한다. 
-
 :::
 
 

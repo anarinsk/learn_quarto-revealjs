@@ -537,5 +537,19 @@
     "title": "This Is a Testflight",
     "section": "Background video",
     "text": "Background video\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/...으로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다."
+  },
+  {
+    "objectID": "main_v2-0.html#백그라운드-동영상-재생-i",
+    "href": "main_v2-0.html#백그라운드-동영상-재생-i",
+    "title": "This Is a Testflight",
+    "section": "백그라운드 동영상 재생 I",
+    "text": "백그라운드 동영상 재생 I\nTed Chiang, “A blurry JPEG of the web”"
+  },
+  {
+    "objectID": "main_v2-0.html#백그라운드-동영상-재생-ii",
+    "href": "main_v2-0.html#백그라운드-동영상-재생-ii",
+    "title": "This Is a Testflight",
+    "section": "백그라운드 동영상 재생 II",
+    "text": "백그라운드 동영상 재생 II\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/...으로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다."
   }
 ]
