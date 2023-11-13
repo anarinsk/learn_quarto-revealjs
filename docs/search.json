@@ -466,7 +466,7 @@
     "href": "main_v2-0.html#section-5",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "GitHub Pages 설정에서 아래와 같이 설정하자."
+    "text": "TEST FOR FOOTER!"
   },
   {
     "objectID": "main_v2-0.html#그림-크기-및-위치",
@@ -516,5 +516,12 @@
     "title": "This Is a Testflight",
     "section": "동영상 임베딩 II",
     "text": "동영상 임베딩 II\n이렇게 엠베딩이 가능하다."
+  },
+  {
+    "objectID": "main_v2-0.html#end-of-document",
+    "href": "main_v2-0.html#end-of-document",
+    "title": "This Is a Testflight",
+    "section": "End of Document",
+    "text": "End of Document\n\n\n\n\n\n\nTEST FOR FOOTER!"
   }
 ]

@@ -583,7 +583,9 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - 아직 logo를 없애는 방법은 없다... 
 :::
 
-# End of Document
+## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
+
+# The End of Document
 
 ::: footer
 :::
