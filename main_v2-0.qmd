@@ -595,7 +595,7 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 :::
 
 
-# End of Document { background-iframe="https://www.youtube.com/embed/rvc5mRATQ7c?autoplay=1&start=10&mute=1&loop=1&playlist=rvc5mRATQ7c" background-opacity=0.2 }
+# End of Document { background-iframe="https://www.youtube.com/embed/rvc5mRATQ7c?autoplay=1&mute=1&start=10" background-opacity=0.2 }
 
 
 ::: footer
