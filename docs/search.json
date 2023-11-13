@@ -551,5 +551,19 @@
     "title": "This Is a Testflight",
     "section": "백그라운드 동영상 재생 II",
     "text": "백그라운드 동영상 재생 II\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/...으로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다."
+  },
+  {
+    "objectID": "main_v2-0.html#page-without-.smaller",
+    "href": "main_v2-0.html#page-without-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page without {.smaller}",
+    "text": "Page without {.smaller}\n\nThis is normal\n이게 보통 크기"
+  },
+  {
+    "objectID": "main_v2-0.html#page-with-.smaller",
+    "href": "main_v2-0.html#page-with-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page with {.smaller}",
+    "text": "Page with {.smaller}\n\nThis is smaller\n이게 작은 크기\n슬라이드 설정에서 ##...{ .smaller }"
   }
 ]

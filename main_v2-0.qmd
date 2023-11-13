@@ -133,15 +133,16 @@ Right column
 
 :::::
 
-## Page w/o `{.smaller}`
+## Page without `{.smaller}`
 
 - This is normal 
 - 이게 보통 크기 
 
-## Page w `{.smaller}` { .smaller }
+## Page with `{.smaller}` { .smaller }
 
 - This is smaller 
 - 이게 작은 크기 
+- 슬라이드 설정에서 `##...{ .smaller }`
 
 ## 스크롤이 가능한 슬라이드 {.scrollable}
 
