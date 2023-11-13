@@ -16,7 +16,7 @@ format:
         transition: concave
         background-transition: fade
         smaller: false
-        scrollable: true
+        scrollable: false
         logo: "logo2.png"
         footer: "TEST FOR FOOTER!"
         #preview-links: true
@@ -386,7 +386,7 @@ This slide's background image will be sized to 100px and repeated.
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
 :::
 
-## Testing Code I { .smaller }
+## Testing Code I { .smaller .scrollable}
 
 ```{.python  code-line-numbers="|9"}
 #| echo: true
@@ -431,7 +431,7 @@ ax.grid(True)
 plt.show()
 ```
 
-## Testing Code II { .smaller }
+## Testing Code II { .smaller .scrollable}
 
 ```{.python code-line-numbers="|7"}
 #| echo: true
@@ -538,7 +538,8 @@ This slide's background image fits the screen.
 
 ## 백그라운드 동영상 재생 II{ 
   background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" 
-  background-opacity=0.35 }
+  background-opacity=0.35 
+  .nonscrollable}
 
 :::{ .nonincremental}
 - `background-video`로는 유튜브 영상을 넣을 수 없다. 
