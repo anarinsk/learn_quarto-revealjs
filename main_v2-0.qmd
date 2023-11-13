@@ -491,7 +491,9 @@ This slide's background image fits the screen.
 
 ### Ted Chiang, ["A blurry JPEG of the web"](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web){target="_blank"}
 
-## 백그라운드 동영상 재생 II{ background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" background-opacity=0.35 }
+## 백그라운드 동영상 재생 II{ 
+  background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" 
+  background-opacity=0.35 }
 
 :::{ .nonincremental}
 - `background-video`로는 유튜브 영상을 넣을 수 없다. 
@@ -595,7 +597,9 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 :::
 
 
-# End of Document { background-iframe="https://www.youtube.com/embed/rvc5mRATQ7c?autoplay=1&mute=1&start=10" background-opacity=0.2 }
+# 끝 { 
+  background-iframe="https://www.youtube.com/embed/rvc5mRATQ7c?autoplay=1&mute=1&start=10" 
+  background-opacity=0.2 }
 
 
 ::: footer
