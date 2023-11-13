@@ -53,14 +53,14 @@
     "href": "main_v2-0.html#incremental-activated",
     "title": "This Is a Testflight",
     "section": "Incremental activated",
-    "text": "Incremental activated\n::: {.incremental} \n🐈🐈🐈\n:::\n사례를 보자.\n\n\nEat spaghetti\nDrink wine"
+    "text": "Incremental activated\n리스트 항목에 적용된다.\n::: {.incremental} \n- 🐈🐈🐈\n- 🐶🐶🐶\n:::\n사례를 보자.\n\n\nEat spaghetti\nDrink wine"
   },
   {
     "objectID": "main_v2-0.html#inscremental-deactivated",
     "href": "main_v2-0.html#inscremental-deactivated",
     "title": "This Is a Testflight",
     "section": "Inscremental deactivated",
-    "text": "Inscremental deactivated\n::: {.nonincremental}\n🐈🐈🐈\n:::\n역시 사례를 보자.\n\n\nEat spaghetti\nDrink wine"
+    "text": "Inscremental deactivated\n::: {.nonincremental}\n- 🐈🐈🐈\n- 🐶🐶🐶\n:::\n역시 사례를 보자.\n\n\nEat spaghetti\nDrink wine"
   },
   {
     "objectID": "main_v2-0.html#slide-with-a-pause",
@@ -95,7 +95,7 @@
     "href": "main_v2-0.html#스크롤이-가능한-슬라이드",
     "title": "This Is a Testflight",
     "section": "스크롤이 가능한 슬라이드",
-    "text": "스크롤이 가능한 슬라이드\n슬라이드 설정에서 {.scrollable}\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
+    "text": "스크롤이 가능한 슬라이드\nyaml에서 디퐅트를 설정하거나, 슬라이드 설정에서 {.scrollable}\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
   },
   {
     "objectID": "main_v2-0.html#탭셋을-적용해보자.",

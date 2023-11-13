@@ -87,9 +87,12 @@ revealjs:
 
 ## Incremental activated
 
+리스트 항목에 적용된다. 
+
 ```code
 ::: {.incremental} 
-🐈🐈🐈
+- 🐈🐈🐈
+- 🐶🐶🐶
 :::
 ```
 
@@ -104,7 +107,8 @@ revealjs:
 
 ```code
 ::: {.nonincremental}
-🐈🐈🐈
+- 🐈🐈🐈
+- 🐶🐶🐶
 :::
 ```
 
@@ -162,7 +166,7 @@ Right column
 
 ## 스크롤이 가능한 슬라이드 {.scrollable}
 
-슬라이드 설정에서 `{.scrollable}`
+yaml에서 디퐅트를 설정하거나, 슬라이드 설정에서 `{.scrollable}`
 
 :::{ .nonincremental}
 - Bullet number 1
@@ -608,7 +612,7 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - GitHub Pages 설정에서 아래와 같이 설정하자. 
 :::
 
-:::{layout=[-0.5,10,-0.5]}
+:::{layout=[-1,8,-1]}
 ![](/images/github-pages.png){ style="border: 3px solid #f5f5dc; padding: 3px;" }
 :::
 
