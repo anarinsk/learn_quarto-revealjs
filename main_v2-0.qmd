@@ -37,34 +37,31 @@ This is a testflight. In this slide, I will test some (nice) features of reveal.
 
 # 기본 활용
 
-## Getting up
+## 슬라이드 두 장 깔기 
 
 - Turn off alarm
 - Get out of bed
-- (continued in the next slide... Hit proper key to continue)
+- (continued in the next slide... Hit a proper key!)
 
 ---
 ## {data-menu-title="Getting-up (cont'd)"  }
 
+(continued from the previous slide)
+
 - Go to the bathroom 
 - Make breakfast 
 
-## 해장술은 필요한가?
+## `p` 태그와 `ui`, `ol` 태그의 글씨는 다를까?
 
-- 필요하다면 주종은? 
+- 해장술은 필요한가? 주종은? 
 - 해장술에 어울리는 안주는?
-- 국물이 필요한가?
+- 국물이 좋을까? 
 
 . . . 
 
-`p`의 텍스트가 `ul`, `ol`의 텍스트와 달라 보이나요? 
+`p`의 텍스트가 `ul`, `ol`의 텍스트와 달라 보이나요? (다르지 않네요!)
 
-## Breakfast
-
-- Eat eggs
-- Drink coffee
-
-## Footnote 
+## Footnote 넣기 
 
 :::{ .nonincremental }
 - Green ^[A footnote. 이것은 각주입니다.]
@@ -90,12 +87,28 @@ revealjs:
 
 ## Incremental activated
 
+```code
+::: {.incremental} 
+🐈🐈🐈
+:::
+```
+
+사례를 보자. 
+
 ::: {.incremental}
 - Eat spaghetti
 - Drink wine
 :::
 
 ## Inscremental deactivated
+
+```code
+::: {.nonincremental}
+🐈🐈🐈
+:::
+```
+
+역시 사례를 보자. 
 
 ::: {.nonincremental}
 - Eat spaghetti
@@ -105,6 +118,8 @@ revealjs:
 ## Slide with a pause
 
 content before the pause
+
+(`. . .`을 쓰면 뒤에 나올 내용을 멈출 수 있다.)
 
 . . .
 
@@ -143,8 +158,11 @@ Right column
 - This is smaller 
 - 이게 작은 크기 
 - 슬라이드 설정에서 `##...{ .smaller }`
+  - 슬라이드 설정에서만 적용된다. 
 
 ## 스크롤이 가능한 슬라이드 {.scrollable}
+
+슬라이드 설정에서 `{.scrollable}`
 
 :::{ .nonincremental}
 - Bullet number 1
@@ -179,7 +197,7 @@ Content for `Tab B`
 
 :::
 
-## $\rm\LaTeX$ 수식 표현을 테스트합니다.
+## $\rm\LaTeX$ Is Possible! 
 $$
 \begin{aligned}
   \dot{x} & = \sigma(y-x) \\
@@ -206,7 +224,7 @@ $$
 
 인라인 수식은 잘 들어갑니꽈~ $y_i = \alpha + \beta x_i$는 회귀방정식~
 
-## 수식 표현을 테스트합니다.{ .smaller }
+## $\rm\LaTeX$ with `{.smaller}` { .smaller }
 
 
 :::{ .callout-note style="font-size: 1.5em;"}
@@ -246,7 +264,8 @@ $$
 - `.qmd` 파일과 같은 위치에 `.css` 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다. 
 - 폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 `format.scss`를 보자. 
     - 1-3 번 라인이 폰트를 입력하는 명령이다. 
-    - 나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다. 
+    - 폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다. 
+    - 나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다. 만일 폰트를 바꾸고 싶다면, 여기에서 바꾸면 된다. 
 :::
 
 ```{.css code-line-numbers=1-3}
@@ -291,37 +310,57 @@ $$
 
 # 백그라운드 활용하기 
 
-## Slide, aquamarine {background-color="aquamarine"}
+## Slide, aquamarine {
+  background-color="aquamarine"}
 
 This changes color of background! 
 
-## 크기 지정 벽지 {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="300px" background-repeat="repeat" background-opacity="0.5"}
+## 크기 지정 벽지 {
+  background-color="black" 
+  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" 
+  background-size="300px" 
+  background-repeat="repeat" 
+  background-opacity="0.4"}
 
 This slide's background image will be sized to 100px and repeated.
 
 
-## 꽉찬 벽지 I {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="cover" background-opacity="0.5"}
+## 꽉찬 벽지 I {
+  background-color="black" 
+  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" 
+  background-size="cover" 
+  background-opacity="0.5" }
 
 - `background-size="cover"`: 벽지를 슬라이드에 맞춘다. 그림은 임의로 확대된다. 
 
-## 꽉찬 벽지 II {background-color="black" background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="contain" background-opacity="0.5"}
+## 꽉찬 벽지 II {
+  background-color="black" 
+  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="contain" 
+  background-opacity="0.5" }
 
 - `background-size="contain"`: 벽지를 슬라이드에 채워넣게 원본 그림 크기를 유지한다.  
 
-## {data-menu-title="타이틀 없는 슬라이드" background-color="aquamarine"}
+## {
+  data-menu-title="타이틀 없는 슬라이드" 
+  background-color="#C3B1E1"}
 
 (A slide with no title)
 
 목차(왼쪽 아래 삼선)에 제목을 나오게 하려면 다음과 같이 처리하자. 
 
-```qmd
+```code
 ## {data-menu-title="타이틀 없는 슬라이드" background-color="aquamarine"}
 ```
 
-## {data-menu-title="또 다른 타이틀 없는 슬라이드"   
-  background-color="black" background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat" background-opacity="0.5"}
+## {
+  data-menu-title="또 다른 타이틀 없는 슬라이드"   
+  background-color="black" 
+  background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat" 
+  background-opacity="0.4" }
 
 (Another slide with no title)
+
+작은 이미지를 반복해서 타일처럼 깔 수 있다. 
 
 # How to use code 
 
@@ -332,10 +371,12 @@ This slide's background image will be sized to 100px and repeated.
   - python의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자. 
 - ~~VS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.~~
 - 이제 가상 환경을 잘 지원한다! 
-   - 문서 생성시 `F1 > Python 인터프리터 선택`으로 파이썬 실행 환경을 지정하자.
+
    - conda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.    
-   - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin > python`을 지정하면 된다.
-   - 페이지 렌더링이 필요하다면 VS Code 안에서 F1으로 인터 프리터를 설정한 뒤 VS Code 내 터미널에서 `>quarto render`를 통해 프로젝트를 컴파일하자. 
+   - pixi를 쓴다면, 별도의 폴더 선택을 통해 `.pixi > env > bin > python`을 지정하면 된다. [🔗](https://www.lostineconomics.com/posts/computer-tool/2023-08-27-pixi.html) 참고
+- 페이지 렌더링이 필요하다면? 
+   - 최초 생성시 필요할 수 있다. 
+   - 위와 같이 인터프리터를 설정하고, VS Code 내 터미널에서 `>quarto render`로 프로젝트를 컴파일하자. 
 - 이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다. 
   - 그림 표현 역시 다크 테마에 맞추거나 (`Testing Code I`)
   - 그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (`Testing Code II`) 
@@ -532,28 +573,27 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 ![시기 별 계산 능력의 변화 GO [🔗](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}](images/artificial-intelligence-training-computation.png)
 :::
 
-## Advanced Data Analysis{}
+## 슬라이드 형태는 유지하고...
 
-:::{layout="[[1],[-1,1,-1],[-0.1]]"}
-
-:::{ .callout-note .smaller}
-제목은 그대로 쓰되 그림과 링크만 가운데 정렬해보겠다. 
+:::{layout="[-1,0.7,-1]"}
+![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
 :::
 
-![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
+::: aside
+제목은 그대로 쓰되 그림과 링크만 가운데 정렬해보겠다. 
 :::
 
 ## 링크 설정하기 
 
 :::{ .nonincremental }
 - link 뒤에 `target="_blank"`를 붙이면 새 창에서 열린다.
-- 이미 앞 쪽에서 사용하고 있었다. 
+- 이 슬라이드에서 쭉 사용하고 있었다. 
 :::
 
 ```qmd
 ![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
 ```
-## Github Pages
+## Github Pages { .smaller }
 
 :::{.nonincremental}
 - `embed-resources: true` 설정해야 퍼블리시에 문제가 없다. 
@@ -562,7 +602,7 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - [🔗](https://quarto.org/docs/publishing/github-pages.html) 참고하자. 링크에 소개된 선택지 중에서 `docs`에 넣고 퍼블리시 하는 방식을 권장한다. 
 :::
 
-## { data-menu-title="GitHub Pages (cont'd)" }
+## { data-menu-title="GitHub Pages (cont'd)" .smaller }
 
 :::{ .nonincremental}
 - GitHub Pages 설정에서 아래와 같이 설정하자. 
