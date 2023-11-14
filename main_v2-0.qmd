@@ -166,7 +166,7 @@ Right column
 
 ## 스크롤이 가능한 슬라이드 {.scrollable}
 
-yaml에서 디퐅트를 설정하거나, 슬라이드 설정에서 `{.scrollable}`
+yaml에서 디폴트를 설정하거나 슬라이드 설정에서 `{.scrollable}`
 
 :::{ .nonincremental}
 - Bullet number 1
@@ -339,10 +339,10 @@ This slide's background image will be sized to 300px and repeated.
 
 ## 꽉찬 벽지 II {
   background-color="black" 
-  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" background-size="contain" 
+  background-image="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/amazing_spider_man_vol_2_50_textless.png" background-size="contain" 
   background-opacity="0.5" }
 
-- `background-size="contain"`: 벽지를 슬라이드에 채워넣게 원본 그림 크기를 유지한다.  
+- `background-size="contain"`: 벽지를 슬라이드에 채워넣지만 원본 그림을 유지한다.  
 
 ## {
   data-menu-title="타이틀 없는 슬라이드" 

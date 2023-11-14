@@ -95,7 +95,7 @@
     "href": "main_v2-0.html#스크롤이-가능한-슬라이드",
     "title": "This Is a Testflight",
     "section": "스크롤이 가능한 슬라이드",
-    "text": "스크롤이 가능한 슬라이드\nyaml에서 디퐅트를 설정하거나, 슬라이드 설정에서 {.scrollable}\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
+    "text": "스크롤이 가능한 슬라이드\nyaml에서 디폴트를 설정하거나 슬라이드 설정에서 {.scrollable}\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
   },
   {
     "objectID": "main_v2-0.html#탭셋을-적용해보자.",
@@ -151,7 +151,7 @@
     "href": "main_v2-0.html#꽉찬-벽지-ii",
     "title": "This Is a Testflight",
     "section": "꽉찬 벽지 II",
-    "text": "꽉찬 벽지 II\n\nbackground-size=\"contain\": 벽지를 슬라이드에 채워넣게 원본 그림 크기를 유지한다."
+    "text": "꽉찬 벽지 II\n\nbackground-size=\"contain\": 벽지를 슬라이드에 채워넣지만 원본 그림을 유지한다."
   },
   {
     "objectID": "main_v2-0.html#section",
