@@ -26,7 +26,7 @@ format:
 ## Disclaimer{.center .smaller}
 
 :::{.nonincremental}
-This is a testflight. In this slide, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
+This is a testflight. In these slides, I will test some (nice) features of reveal.js for my personal use. The features come mostly from [Quarto-Revealjs](https://quarto.org/docs/presentations/revealjs/).
 
 🐈🐈🐈
 
@@ -53,13 +53,13 @@ This is a testflight. In this slide, I will test some (nice) features of reveal.
 
 ## `p` 태그와 `ui`, `ol` 태그의 글씨는 다를까?
 
-- 해장술은 필요한가? 주종은? 
+- 해장술은 필요한가? 
+- 해장술로 적당한 주종은? 
 - 해장술에 어울리는 안주는?
-- 국물이 좋을까? 
 
 . . . 
 
-`p`의 텍스트가 `ul`, `ol`의 텍스트와 달라 보이나요? (다르지 않네요!)
+위 리스트 텍스트(`ul`, `ol`)가 이 텍스트와 달라 보이나요? (다르지 않네요!)
 
 ## Footnote 넣기 
 
@@ -317,7 +317,7 @@ $$
 ## Slide, aquamarine {
   background-color="aquamarine"}
 
-This changes color of background! 
+You can change the color of background (to aquamarine)!
 
 ## 크기 지정 벽지 {
   background-color="black" 
@@ -358,9 +358,9 @@ This slide's background image will be sized to 300px and repeated.
 ```code
 ## {data-menu-title="타이틀 없는 슬라이드" background-color="aquamarine"}
 ```
-# How to use code 
+# How to Use Code 
 
-## Use env { .smaller }
+## 가상 환경 쓰기 { .smaller }
 
 :::{ .nonincremental }
 - 코드를 실행하기 위해서는 '환경'을 쓰는 게 좋다. 
@@ -531,9 +531,11 @@ This slide's background image fits the screen.
 ## 백그라운드 동영상 재생 II{ 
   background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" 
   background-opacity=0.35 
-  .nonscrollable}
+  .nonscrollable
+  .smaller
+  }
 
-:::{ .nonincremental}
+:::{ .nonincremental }
 - `background-video`로는 유튜브 영상을 넣을 수 없다. 
 - 대신에 `background-iframe`으로 넣으면 된다. 단 유튜브의 경우 링크는 `www.youtube.com/embed/...`으로 넣어야 한다.
 - 파라미터
@@ -548,7 +550,8 @@ This slide's background image fits the screen.
 ## 링크 걸기 {.smaller}
 
 :::{layout="[-0.1, 0.7, -0.1]"}
-![AI는 무엇을 얼마나 잘하나? GO [🔗](https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests){preview-link="true"}](images/ai-performance-coding-math-knowledge-tests-2.png){fig-align="center"}
+AI는 무엇을 얼마나 잘하나?
+[![](images/ai-performance-coding-math-knowledge-tests-2.png)](https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests){preview-link="true"}
 :::
 
 ## URL 프리뷰 
@@ -562,18 +565,21 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 
 `[🔗](...){preview-link="true"}` 와 같이 `{}` 안에서 개별적으로 설정해서 쓸 수도 있다. 
 
-## layout 쓰기 
+## layout 쓰기{.smaller}
 
 :::{layout="[5, -0.2, 5]"}
-![계산능력 vs 효과. GO [🔗](https://ourworldindata.org/grapher/ai-performance-knowledge-tests-vs-training-computation){preview-link="true"}](images/ai-performance-knowledge-tests-vs-training-computation.png)
+계산능력 vs 효과
+[![](images/ai-performance-knowledge-tests-vs-training-computation.png)](https://ourworldindata.org/grapher/ai-performance-knowledge-tests-vs-training-computation){preview-link="true"}
 
-![시기 별 계산 능력의 변화 GO [🔗](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}](images/artificial-intelligence-training-computation.png)
+시기 별 계산 능력의 변화 
+[![](images/artificial-intelligence-training-computation.png)](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}
 :::
 
-## 슬라이드 형태는 유지하고...
+## 슬라이드 형태는 유지하고 가운데 정렬{.smaller}
 
-:::{layout="[-1,0.7,-1]"}
-![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}](/images/chatGPT4-da.png)
+:::{layout="[[-0.5],[-1,1,-1],[-0.5]]"}
+Analysis with chatGPT 
+[![](/images/chatGPT4-da.png)](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}
 :::
 
 ::: aside
