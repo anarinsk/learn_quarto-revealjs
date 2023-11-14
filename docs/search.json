@@ -137,7 +137,7 @@
     "href": "main_v2-0.html#크기-지정-벽지",
     "title": "This Is a Testflight",
     "section": "크기 지정 벽지",
-    "text": "크기 지정 벽지\nThis slide’s background image will be sized to 100px and repeated."
+    "text": "크기 지정 벽지\nThis slide’s background image will be sized to 300px and repeated."
   },
   {
     "objectID": "main_v2-0.html#꽉찬-벽지-i",
@@ -165,7 +165,7 @@
     "href": "main_v2-0.html#section-1",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "(A slide with no title)\n목차(왼쪽 아래 삼선)에 제목을 나오게 하려면 다음과 같이 처리하자.\n## {data-menu-title=\"타이틀 없는 슬라이드\" background-color=\"aquamarine\"}"
+    "text": "(A slide with no title)\n\n\n목차(왼쪽 아래 삼선)에 제목을 나오게 하려면?\n슬라이드에 제목이 없으면 본문의 처음 대목이 자동으로 들어간다.\n\n\n## {data-menu-title=\"타이틀 없는 슬라이드\" background-color=\"aquamarine\"}"
   },
   {
     "objectID": "main_v2-0.html#use-env",
@@ -200,7 +200,7 @@
     "href": "main_v2-0.html#section-2",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "(Another slide with no title)\n작은 이미지를 반복해서 타일처럼 깔 수 있다."
+    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다."
   },
   {
     "objectID": "main_v2-0.html#동영상-임베딩",
@@ -242,7 +242,7 @@
     "href": "main_v2-0.html#section-3",
     "title": "This Is a Testflight",
     "section": "",
-    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다."
+    "text": "GitHub Pages 설정에서 아래와 같이 설정하자."
   },
   {
     "objectID": "main_v2-0.html#github-publish",
