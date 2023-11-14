@@ -550,7 +550,7 @@ This slide's background image fits the screen.
 ## 링크 걸기 {.smaller}
 
 :::{layout="[-0.1, 0.7, -0.1]"}
-AI는 무엇을 얼마나 잘하나?
+AI는 무엇을 얼마나 잘하나? 👇
 [![](images/ai-performance-coding-math-knowledge-tests-2.png)](https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests){preview-link="true"}
 :::
 
@@ -568,17 +568,17 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 ## layout 쓰기{.smaller}
 
 :::{layout="[5, -0.2, 5]"}
-계산능력 vs 효과
+계산능력 vs 효과 👇
 [![](images/ai-performance-knowledge-tests-vs-training-computation.png)](https://ourworldindata.org/grapher/ai-performance-knowledge-tests-vs-training-computation){preview-link="true"}
 
-시기 별 계산 능력의 변화 
+시기 별 계산 능력의 변화 👇
 [![](images/artificial-intelligence-training-computation.png)](https://ourworldindata.org/grapher/artificial-intelligence-training-computation){preview-link="true"}
 :::
 
-## 슬라이드 형태는 유지하고 가운데 정렬{.smaller}
+## 슬라이드 제목은 유지! {.smaller}
 
-:::{layout="[[-0.5],[-1,1,-1],[-0.5]]"}
-Analysis with chatGPT 
+:::{layout="[[-1,1.2,-1],[-1]]"}
+Analysis with chatGPT 👇
 [![](/images/chatGPT4-da.png)](https://youtu.be/SzTjGAO6fKo?t=220){target="_blank"}
 :::
 
