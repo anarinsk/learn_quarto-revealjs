@@ -267,9 +267,9 @@ $$
 :::{ .nonincremental }
 - `.qmd` 파일과 같은 위치에 `.css` 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다. 
 - 폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 `format.scss`를 보자. 
-    - 1-3 번 라인이 폰트를 입력하는 명령이다. 
+    - 1-3 번 라인이 웹폰트를 로딩하는 css다. 
     - 폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다. 
-    - 나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다. 만일 폰트를 바꾸고 싶다면, 여기에서 바꾸면 된다. 
+    - 나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다. 
 :::
 
 ```{.css code-line-numbers=1-3}
@@ -537,11 +537,12 @@ This slide's background image fits the screen.
 
 :::{ .nonincremental }
 - `background-video`로는 유튜브 영상을 넣을 수 없다. 
-- 대신에 `background-iframe`으로 넣으면 된다. 단 유튜브의 경우 링크는 `www.youtube.com/embed/...`으로 넣어야 한다.
+- 대신에 `background-iframe`으로 넣으면 된다. 단 유튜브의 경우 링크는 `www.youtube.com/embed/(영상주소코드)`로 넣어야 한다.
 - 파라미터
   - `&autoplay`: 1이면 자동 재생
   - `&mute`: 1이면 음소거
   - `&loop`: 1이면 반복 재생. `&playlist`와 함께 써야 한다. 
+- 이 영상의 경우 소리를 활성화해두었다. 
 :::
 
 ::: footer 

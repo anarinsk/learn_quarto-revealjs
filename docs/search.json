@@ -123,7 +123,7 @@
     "href": "main_v2-0.html#sample-css",
     "title": "This Is a Testflight",
     "section": "sample css",
-    "text": "sample css\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 폰트를 입력하는 명령이다.\n폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다. 만일 폰트를 바꾸고 싶다면, 여기에서 바꾸면 된다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
+    "text": "sample css\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 웹폰트를 로딩하는 css다.\n폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
   },
   {
     "objectID": "main_v2-0.html#slide-aquamarine",
@@ -550,7 +550,7 @@
     "href": "main_v2-0.html#백그라운드-동영상-재생-ii",
     "title": "This Is a Testflight",
     "section": "백그라운드 동영상 재생 II",
-    "text": "백그라운드 동영상 재생 II\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/...으로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다."
+    "text": "백그라운드 동영상 재생 II\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/(영상주소코드)로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다.\n\n이 영상의 경우 소리를 활성화해두었다."
   },
   {
     "objectID": "main_v2-0.html#page-without-.smaller",
