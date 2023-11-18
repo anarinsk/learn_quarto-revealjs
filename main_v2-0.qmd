@@ -321,17 +321,17 @@ You can change the color of background (to aquamarine)!
 
 ## 크기 지정 벽지 {
   background-color="black" 
-  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" 
-  background-size="300px" 
+  background-image="./images/Tsunami_by_hokusai_19th_century.jpg" 
+  background-size="250px" 
   background-repeat="repeat" 
   background-opacity="0.4"}
 
-This slide's background image will be sized to 300px and repeated.
+This slide's background image will be sized to 250px and repeated.
 
 
 ## 꽉찬 벽지 I {
   background-color="black" 
-  background-image="https://www.comicbasics.com/wp-content/uploads/2020/01/Top-10-Marvel-Superheroes-That-Have-Doctorates-678x381.jpg" 
+  background-image="./images/Tsunami_by_hokusai_19th_century.jpg" 
   background-size="cover" 
   background-opacity="0.5" }
 
@@ -339,7 +339,8 @@ This slide's background image will be sized to 300px and repeated.
 
 ## 꽉찬 벽지 II {
   background-color="black" 
-  background-image="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/amazing_spider_man_vol_2_50_textless.png" background-size="contain" 
+  background-image="./images/Tsunami_by_hokusai_19th_century.jpg" 
+  background-size="contain" 
   background-opacity="0.5" }
 
 - `background-size="contain"`: 벽지를 슬라이드에 채워넣지만 원본 그림을 유지한다.  
@@ -529,7 +530,7 @@ This slide's background image fits the screen.
 ### Ted Chiang, ["A blurry JPEG of the web"](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web){target="_blank"}
 
 ## 백그라운드 동영상 재생 II{ 
-  background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=yFE6qQ3ySXE" 
+  background-iframe="https://www.youtube.com/embed/yFE6qQ3ySXE?autoplay=1&mute=0&loop=1&playlist=k85mRPqvMbE" 
   background-opacity=0.35 
   .nonscrollable
   .smaller
@@ -645,7 +646,7 @@ Analysis with chatGPT 👇
 
 
 # 끝 { 
-  background-iframe="https://www.youtube.com/embed/rvc5mRATQ7c?autoplay=1&mute=1&start=10" 
+  background-iframe="https://www.youtube.com/embed/CT6EM4nVxqE?autoplay=1&mute=1&start=10" 
   background-opacity=0.2 }
 
 
