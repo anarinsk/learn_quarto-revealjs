@@ -633,6 +633,9 @@ Analysis with chatGPT 👇
 :::{ .nonincremental }
 - Slide에 아래과 같이 붙이자. 
 
+::: footer
+:::
+
 ```qmd
 ::: footer
 :::
