@@ -331,7 +331,7 @@ This slide's background image will be sized to 250px and repeated.
 
 ## 꽉찬 벽지 I {
   background-color="black" 
-  background-image="./images/Tsunami_by_hokusai_19th_century.jpg" 
+  background-image="./images/the-scream.jpg" 
   background-size="cover" 
   background-opacity="0.5" }
 
@@ -339,7 +339,7 @@ This slide's background image will be sized to 250px and repeated.
 
 ## 꽉찬 벽지 II {
   background-color="black" 
-  background-image="./images/Tsunami_by_hokusai_19th_century.jpg" 
+  background-image="./images/the-scream.jpg" 
   background-size="contain" 
   background-opacity="0.5" }
 
