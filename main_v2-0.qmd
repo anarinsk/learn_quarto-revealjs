@@ -21,6 +21,8 @@ format:
         footer: "TEST FOR FOOTER!"
         #preview-links: true
         #self-contained: true
+        #width: 2000
+        #height: 1000
 ---
 
 ## Disclaimer{.center .smaller}
@@ -644,6 +646,38 @@ Analysis with chatGPT 👇
 - 아직 logo를 없애는 방법은 없다... 
 :::
 
+## H1~H6 글자 크기 제어
+
+::: {.nonincremental}
+- 슬라이드에 성격에 따라서 요소별로 글자가 크거나 적으면 좋겠다 싶을 때가 있다...
+- `format.scss`에 아래와 같이 설정하면 된다. 
+:::
+
+```scss
+/*-- scss:defaults --*/
+$presentation-h1-font-size: 2.2em;
+$presentation-h2-font-size: 1.2em;
+$presentation-h3-font-size: 1em;
+$presentation-h4-font-size:	0.9em;
+$presentation-h5-font-size:	0.9em;
+$presentation-h6-font-size: 0.9em;
+```
+
+## 슬라이드 크기 자체의 제어 
+
+::: {.nonincremental}
+- 슬라이드의 판 크기 자체를 제어할 수 있다. 
+- 더 많은 글씨나 요소를 넣을 수 있다. 
+- 아래의 옵션을 넣어 [렌더링된 문서](./docs/main_v2-0_larger.html)와 비교해보시라. 
+:::
+
+```qmd
+format: 
+    revealjs:
+        ...
+        width: 1500
+        height: 800
+```
 
 # 끝 { 
   background-iframe="https://www.youtube.com/embed/CT6EM4nVxqE?autoplay=1&mute=1&start=10" 

@@ -635,5 +635,306 @@
     "title": "This Is a Testflight",
     "section": "슬라이드 제목은 유지!",
     "text": "슬라이드 제목은 유지!\n\n\n\n \n\n\nAnalysis with chatGPT 👇 \n\n\n \n\n\n\n\n\n제목은 그대로 쓰되 그림과 링크만 가운데 정렬해보겠다."
+  },
+  {
+    "objectID": "main_v2-0.html#h1h6-글자-크기-제어",
+    "href": "main_v2-0.html#h1h6-글자-크기-제어",
+    "title": "This Is a Testflight",
+    "section": "H1~H6 글자 크기 제어",
+    "text": "H1~H6 글자 크기 제어\n\n\n슬라이드에 성격에 따라서 요소별로 글자가 크거나 적으면 좋겠다 싶을 때가 있다…\nformat.scss에 아래와 같이 설정하면 된다.\n\n\n/*-- scss:defaults --*/\n$presentation-h1-font-size: 2.2em;\n$presentation-h2-font-size: 1.2em;\n$presentation-h3-font-size: 1em;\n$presentation-h4-font-size: 0.9em;\n$presentation-h5-font-size: 0.9em;\n$presentation-h6-font-size: 0.9em;"
+  },
+  {
+    "objectID": "main_v2-0.html#슬라이드-크기-자체의-제어",
+    "href": "main_v2-0.html#슬라이드-크기-자체의-제어",
+    "title": "This Is a Testflight",
+    "section": "슬라이드 크기 자체의 제어",
+    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n아래의 옵션을 넣어 렌더링된 문서와 비교해보시라.\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 800"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#disclaimer",
+    "href": "main_v2-0_larger.html#disclaimer",
+    "title": "This Is a Testflight",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nThis is a testflight. In these slides, I will test some (nice) features of reveal.js for my personal use. The features come mostly from Quarto-Revealjs.\n🐈🐈🐈\n\n이 PT는 장난질입니다. 내용은 무시하고 기능만 봐주세요.\nQuarto + reveal.js에서 개인적으로 필요한 요소들을 구현했습니다. 새로 익힌 기술이 있을 경우 업데이트하며 기준은 1면 날짜와 같습니다.\n슬라이드에서 생성 코드를 상세하게 해설하지 않습니다. 소스와 함께 보시면 좋습니다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#슬라이드-두-장-깔기",
+    "href": "main_v2-0_larger.html#슬라이드-두-장-깔기",
+    "title": "This Is a Testflight",
+    "section": "슬라이드 두 장 깔기",
+    "text": "슬라이드 두 장 깔기\n\nTurn off alarm\nGet out of bed\n(continued in the next slide… Hit a proper key!)"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#section",
+    "href": "main_v2-0_larger.html#section",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "(continued from the previous slide)\n\nGo to the bathroom\nMake breakfast"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#p-태그와-ui-ol-태그의-글씨는-다를까",
+    "href": "main_v2-0_larger.html#p-태그와-ui-ol-태그의-글씨는-다를까",
+    "title": "This Is a Testflight",
+    "section": "p 태그와 ui, ol 태그의 글씨는 다를까?",
+    "text": "p 태그와 ui, ol 태그의 글씨는 다를까?\n\n해장술은 필요한가?\n해장술로 적당한 주종은?\n해장술에 어울리는 안주는?\n\n\n위 리스트 텍스트(ul, ol)가 이 텍스트와 달라 보이나요? (다르지 않네요!)"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#footnote-넣기",
+    "href": "main_v2-0_larger.html#footnote-넣기",
+    "title": "This Is a Testflight",
+    "section": "Footnote 넣기",
+    "text": "Footnote 넣기\n\n\nGreen 1\nBrown\nPurple\n한글과 조화롭나요?\n\n\n\n\nSome additional commentary of more peripheral interest.\nA footnote. 이것은 각주입니다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#incremental-디폴트-설정",
+    "href": "main_v2-0_larger.html#incremental-디폴트-설정",
+    "title": "This Is a Testflight",
+    "section": "Incremental 디폴트 설정",
+    "text": "Incremental 디폴트 설정\npreamble에 디폴트 옵션으로도 넣을 수 있다.\nrevealjs:\n  incremental: true\n개별 객체에 대해서도 설정 가능"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#incremental-activated",
+    "href": "main_v2-0_larger.html#incremental-activated",
+    "title": "This Is a Testflight",
+    "section": "Incremental activated",
+    "text": "Incremental activated\n리스트 항목에 적용된다.\n::: {.incremental} \n- 🐈🐈🐈\n- 🐶🐶🐶\n:::\n사례를 보자.\n\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#inscremental-deactivated",
+    "href": "main_v2-0_larger.html#inscremental-deactivated",
+    "title": "This Is a Testflight",
+    "section": "Inscremental deactivated",
+    "text": "Inscremental deactivated\n::: {.nonincremental}\n- 🐈🐈🐈\n- 🐶🐶🐶\n:::\n역시 사례를 보자.\n\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#slide-with-a-pause",
+    "href": "main_v2-0_larger.html#slide-with-a-pause",
+    "title": "This Is a Testflight",
+    "section": "Slide with a pause",
+    "text": "Slide with a pause\ncontent before the pause\n(. . .을 쓰면 뒤에 나올 내용을 멈출 수 있다.)\n\ncontent after the pause"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#multicolum",
+    "href": "main_v2-0_larger.html#multicolum",
+    "title": "This Is a Testflight",
+    "section": "Multicolum",
+    "text": "Multicolum\n\n\n\nLeft column\n\nThis is left column.\n40% is allocated.\n\n\nRight column\n\n이쪽은 오른쪽 열입니다.\n60%가 할당되어 있지요!"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#page-without-.smaller",
+    "href": "main_v2-0_larger.html#page-without-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page without {.smaller}",
+    "text": "Page without {.smaller}\n\nThis is normal\n이게 보통 크기"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#page-with-.smaller",
+    "href": "main_v2-0_larger.html#page-with-.smaller",
+    "title": "This Is a Testflight",
+    "section": "Page with {.smaller}",
+    "text": "Page with {.smaller}\n\nThis is smaller\n이게 작은 크기\n슬라이드 설정에서 ##...{ .smaller }\n\n슬라이드 설정에서만 적용된다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#스크롤이-가능한-슬라이드",
+    "href": "main_v2-0_larger.html#스크롤이-가능한-슬라이드",
+    "title": "This Is a Testflight",
+    "section": "스크롤이 가능한 슬라이드",
+    "text": "스크롤이 가능한 슬라이드\nyaml에서 디폴트를 설정하거나 슬라이드 설정에서 {.scrollable}\n\n\nBullet number 1\nBullet number 2\nBullet number 3\nBullet number 4\nBullet number 5\nBullet number 6\nBullet number 7\n총알 넘버 8\n총알 넘버 9\n총알 넘버 10\n총알 넘버 11\n총알 넘버 12"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#탭셋을-적용해보자.",
+    "href": "main_v2-0_larger.html#탭셋을-적용해보자.",
+    "title": "This Is a Testflight",
+    "section": "탭셋을 적용해보자.",
+    "text": "탭셋을 적용해보자.\n\nTab ATab B\n\n\nContent for Tab A\n봉준호가 깐느봉일까요?\n\n\nContent for Tab B\n박찬욱이 깐느박일까요?"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#rmlatex-is-possible",
+    "href": "main_v2-0_larger.html#rmlatex-is-possible",
+    "title": "This Is a Testflight",
+    "section": "\\(\\rm\\LaTeX\\) Is Possible!",
+    "text": "\\(\\rm\\LaTeX\\) Is Possible!\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\]\n\\[\n   \\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n        \\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n        \\end{bmatrix}\n        =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식~"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#rmlatex-with-.smaller",
+    "href": "main_v2-0_larger.html#rmlatex-with-.smaller",
+    "title": "This Is a Testflight",
+    "section": "\\(\\rm\\LaTeX\\) with {.smaller}",
+    "text": "\\(\\rm\\LaTeX\\) with {.smaller}\n\n\n\n\n\n\n\nNote\n\n\n{.smaller}을 슬라이드 타이틀에 적용한 경우. 콜아웃 노트의 마크는 작아지지 않는다. 따라서 여기서처럼 css 스타일을 적용해 콜아웃 노트 폰트 크기를 조절할 수 있다.\n\n\n\n\n\\[\n\\begin{aligned}\n  \\dot{x} & = \\sigma(y-x) \\\\\n  \\dot{y} & = \\rho x - y - xz \\\\\n  \\dot{z} & = -\\beta z + xy\n\\end{aligned}\n\\] \\[\n\\begin{bmatrix}\n                1 & x & 0 \\\\\n                0 & 1 & -1\n\\end{bmatrix}\\begin{bmatrix}\n                1  \\\\\n                y  \\\\\n                1\n\\end{bmatrix}\n      =\\begin{bmatrix}\n                1+xy  \\\\\n                y-1\n        \\end{bmatrix}.\n\\]\n인라인 수식은 잘 들어갑니꽈~ \\(y_i = \\alpha + \\beta x_i\\)는 회귀방정식~"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#sample-css",
+    "href": "main_v2-0_larger.html#sample-css",
+    "title": "This Is a Testflight",
+    "section": "sample css",
+    "text": "sample css\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 웹폰트를 로딩하는 css다.\n폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#slide-aquamarine",
+    "href": "main_v2-0_larger.html#slide-aquamarine",
+    "title": "This Is a Testflight",
+    "section": "Slide, aquamarine",
+    "text": "Slide, aquamarine\nYou can change the color of background (to aquamarine)!"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#크기-지정-벽지",
+    "href": "main_v2-0_larger.html#크기-지정-벽지",
+    "title": "This Is a Testflight",
+    "section": "크기 지정 벽지",
+    "text": "크기 지정 벽지\nThis slide’s background image will be sized to 250px and repeated."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#꽉찬-벽지-i",
+    "href": "main_v2-0_larger.html#꽉찬-벽지-i",
+    "title": "This Is a Testflight",
+    "section": "꽉찬 벽지 I",
+    "text": "꽉찬 벽지 I\n\nbackground-size=\"cover\": 벽지를 슬라이드에 맞춘다. 그림은 임의로 확대된다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#꽉찬-벽지-ii",
+    "href": "main_v2-0_larger.html#꽉찬-벽지-ii",
+    "title": "This Is a Testflight",
+    "section": "꽉찬 벽지 II",
+    "text": "꽉찬 벽지 II\n\nbackground-size=\"contain\": 벽지를 슬라이드에 채워넣지만 원본 그림을 유지한다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#section-1",
+    "href": "main_v2-0_larger.html#section-1",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "(A slide with no title)\n\n\n목차(왼쪽 아래 삼선)에 제목을 나오게 하려면?\n슬라이드에 제목이 없으면 본문의 처음 대목이 자동으로 들어간다.\n\n\n## {data-menu-title=\"타이틀 없는 슬라이드\" background-color=\"aquamarine\"}"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#가상-환경-쓰기",
+    "href": "main_v2-0_larger.html#가상-환경-쓰기",
+    "title": "This Is a Testflight",
+    "section": "가상 환경 쓰기",
+    "text": "가상 환경 쓰기\n\n\n코드를 실행하기 위해서는 ’환경’을 쓰는 게 좋다.\n\npython의 env를 쓰든 conda env를 쓰든 필요한 것을 쓰자.\n\nVS Code Extension이 아직까지 conda 환경을 제대로 지원하지 않는다.\n이제 가상 환경을 잘 지원한다!\n\nconda를 쓴다면 conda 환경을, venv를 쓰면 해당 환경을 잡아주자.\n\npixi를 쓴다면, 별도의 폴더 선택을 통해 .pixi &gt; env &gt; bin &gt; python을 지정하면 된다. 🔗 참고\n\n페이지 렌더링이 필요하다면?\n\n최초 생성시 필요할 수 있다.\n위와 같이 인터프리터를 설정하고, VS Code 내 터미널에서 &gt;quarto render로 프로젝트를 컴파일하자.\n\n이 슬라이드처럼 다크 테마를 쓸 경우 그림 표시에 문제가 있을 수 있다.\n\n그림 표현 역시 다크 테마에 맞추거나 (Testing Code I)\n그림을 표현할 때는 적절한 밝은 테마를 쓰는 것이다. (Testing Code II)"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#testing-code-i",
+    "href": "main_v2-0_larger.html#testing-code-i",
+    "title": "This Is a Testflight",
+    "section": "Testing Code I",
+    "text": "Testing Code I\n#| echo: true\n#| layout: [-5, 60, -5]\n#| fig-size: [10,10]\n#| fig-cap: \"A line plot on a polar axis\"\n#| cap-align: center\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('dark_background')\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('dark_background'): 다크 모드에 맞춘 스타일 설정\n한 턴 진행 후 스크롤을 해서 아래의 결과를 확인!\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#testing-code-ii",
+    "href": "main_v2-0_larger.html#testing-code-ii",
+    "title": "This Is a Testflight",
+    "section": "Testing Code II",
+    "text": "Testing Code II\n#| echo: true\n#| label: fig-polar-2\n#| fig-cap: \"A line plot on a polar axis wth customized style\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('seaborn-v0_8-white')\n#plt.rcParams[\"figure.figsize\"] = (6,6)\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('seaborn-v0_8-white'): 적절한 백색 스타일\n\n\n\n\n\n\n\n\n\nFigure 2: A line plot on a polar axis wth customized style"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#css-적용하기",
+    "href": "main_v2-0_larger.html#css-적용하기",
+    "title": "This Is a Testflight",
+    "section": "css 적용하기",
+    "text": "css 적용하기\n슬라이드 내에서 ::: 블록 지정 후에 css를 적용할 수 있다.\n:::{style=\"color: yellow;\"}\nThis slide's background image fits the screen.\n:::\n위와 같이 적용하면 슬라이드 요소의 일부분에 css를 적용할 수 있다.\n\nThis slide’s background image fits the screen."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#section-2",
+    "href": "main_v2-0_larger.html#section-2",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "## {\n  style=\"text-align: center;\" \n  .center\n  }\n\n\n“슬라이드 타이틀 태그(##)뒤에 style로 css 적용하자.”\n\n\n\n\n\n\n\nNote\n\n\n단 이렇게 걸게 되면 이 슬라이드에서 보듯이 제목 등 슬라이드 포맷 전체가 css의 적용을 받게 된다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#동영상-임베딩",
+    "href": "main_v2-0_larger.html#동영상-임베딩",
+    "title": "This Is a Testflight",
+    "section": "동영상 임베딩",
+    "text": "동영상 임베딩\n이렇게 엠베딩이 가능하다. 🔗 참고"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#백그라운드-동영상-재생-i",
+    "href": "main_v2-0_larger.html#백그라운드-동영상-재생-i",
+    "title": "This Is a Testflight",
+    "section": "백그라운드 동영상 재생 I",
+    "text": "백그라운드 동영상 재생 I\nTed Chiang, “A blurry JPEG of the web”"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#백그라운드-동영상-재생-ii",
+    "href": "main_v2-0_larger.html#백그라운드-동영상-재생-ii",
+    "title": "This Is a Testflight",
+    "section": "백그라운드 동영상 재생 II",
+    "text": "백그라운드 동영상 재생 II\n\n\nbackground-video로는 유튜브 영상을 넣을 수 없다.\n대신에 background-iframe으로 넣으면 된다. 단 유튜브의 경우 링크는 www.youtube.com/embed/(영상주소코드)로 넣어야 한다.\n파라미터\n\n&autoplay: 1이면 자동 재생\n&mute: 1이면 음소거\n&loop: 1이면 반복 재생. &playlist와 함께 써야 한다.\n\n이 영상의 경우 소리를 활성화해두었다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#링크-걸기",
+    "href": "main_v2-0_larger.html#링크-걸기",
+    "title": "This Is a Testflight",
+    "section": "링크 걸기",
+    "text": "링크 걸기\n\n\n\n \n\n\nAI는 무엇을 얼마나 잘하나? 👇"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#url-프리뷰",
+    "href": "main_v2-0_larger.html#url-프리뷰",
+    "title": "This Is a Testflight",
+    "section": "URL 프리뷰",
+    "text": "URL 프리뷰\nyml 설정에서 preview-links: true를 설정해둔다.\n\n\n페이지 안에서 링크가 열리는 장점이 있다.\n제대로 열리지 않는 페이지가 있다.\n\n\n[🔗](...){preview-link=\"true\"} 와 같이 {} 안에서 개별적으로 설정해서 쓸 수도 있다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#layout-쓰기",
+    "href": "main_v2-0_larger.html#layout-쓰기",
+    "title": "This Is a Testflight",
+    "section": "layout 쓰기",
+    "text": "layout 쓰기\n\n\n\n계산능력 vs 효과 👇 \n\n\n \n\n\n시기 별 계산 능력의 변화 👇"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#슬라이드-제목은-유지",
+    "href": "main_v2-0_larger.html#슬라이드-제목은-유지",
+    "title": "This Is a Testflight",
+    "section": "슬라이드 제목은 유지!",
+    "text": "슬라이드 제목은 유지!\n\n\n\n \n\n\nAnalysis with chatGPT 👇 \n\n\n \n\n\n\n\n\n제목은 그대로 쓰되 그림과 링크만 가운데 정렬해보겠다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#링크-설정하기",
+    "href": "main_v2-0_larger.html#링크-설정하기",
+    "title": "This Is a Testflight",
+    "section": "링크 설정하기",
+    "text": "링크 설정하기\n\n\nlink 뒤에 target=\"_blank\"를 붙이면 새 창에서 열린다.\n이 슬라이드에서 쭉 사용하고 있었다.\n\n\n![동영상 GO [🔗](https://youtu.be/SzTjGAO6fKo?t=220){target=\"_blank\"}](/images/chatGPT4-da.png)"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#github-pages",
+    "href": "main_v2-0_larger.html#github-pages",
+    "title": "This Is a Testflight",
+    "section": "Github Pages",
+    "text": "Github Pages\n\n\nembed-resources: true 설정해야 퍼블리시에 문제가 없다.\n\n렌더링에 필요한 .js 파일들이 함께 올라가야 웹에서 제대로 퍼블리시 된다. 처음만 올라가면 된다. 이후 동기화에서 이 파일들은 동기화되지 않는다.\n\n깃헙 페이지스의 퍼블리시 방식이 바뀌었다. actions에서 자동화하거나 docs에 파일을 다 넣고 퍼블리시 하는 방식이다.\n🔗 참고하자. 링크에 소개된 선택지 중에서 docs에 넣고 퍼블리시 하는 방식을 권장한다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#section-3",
+    "href": "main_v2-0_larger.html#section-3",
+    "title": "This Is a Testflight",
+    "section": "",
+    "text": "GitHub Pages 설정에서 아래와 같이 설정하자."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#그림-크기-및-위치",
+    "href": "main_v2-0_larger.html#그림-크기-및-위치",
+    "title": "This Is a Testflight",
+    "section": "그림 크기 및 위치",
+    "text": "그림 크기 및 위치\n\n\n그림의 크기와 위치는 ![](...) 방식으로 설정이 쉽지 않다.\n대신에 layout=\"(...)\"으로 하면 편리하다.\n🔗를 참고하자. 이 예시에서도 많이 사용되었다.\n\n\n:::{layout=\"[-0.1, 0.7, -0.1]\"} # 수평 가운데 맞춤\n:::{layout=\"[[-1], [-0.1, 0.7, -0.1], [-1]]\"} # 수평 수직 가운데 맞춤"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#footer를-없애고-싶을-때",
+    "href": "main_v2-0_larger.html#footer를-없애고-싶을-때",
+    "title": "This Is a Testflight",
+    "section": "footer를 없애고 싶을 때",
+    "text": "footer를 없애고 싶을 때\n\n\nSlide에 아래과 같이 붙이자.\n\n\n\n\n::: footer\n:::\n\n아직 logo를 없애는 방법은 없다…"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#h1h6-글자-크기-제어",
+    "href": "main_v2-0_larger.html#h1h6-글자-크기-제어",
+    "title": "This Is a Testflight",
+    "section": "H1~H6 글자 크기 제어",
+    "text": "H1~H6 글자 크기 제어\n\n\n슬라이드에 성격에 따라서 요소별로 글자가 크거나 적으면 좋겠다 싶을 때가 있다…\nformat.scss에 아래와 같이 설정하면 된다.\n\n\n/*-- scss:defaults --*/\n$presentation-h1-font-size: 2.2em;\n$presentation-h2-font-size: 1.2em;\n$presentation-h3-font-size: 1em;\n$presentation-h4-font-size: 0.9em;\n$presentation-h5-font-size: 0.9em;\n$presentation-h6-font-size: 0.9em;"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#슬라이드-크기-자체의-제어",
+    "href": "main_v2-0_larger.html#슬라이드-크기-자체의-제어",
+    "title": "This Is a Testflight",
+    "section": "슬라이드 크기 자체의 제어",
+    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 800"
   }
 ]
