@@ -21,8 +21,8 @@ format:
         footer: "TEST FOR FOOTER!"
         #preview-links: true
         #self-contained: true
-        #width: 2000
-        #height: 1000
+        #width: 1800
+        #height: 700
 ---
 
 ## Disclaimer{.center .smaller}
@@ -668,15 +668,15 @@ $presentation-h6-font-size: 0.9em;
 ::: {.nonincremental}
 - 슬라이드의 판 크기 자체를 제어할 수 있다. 
 - 더 많은 글씨나 요소를 넣을 수 있다. 
-- 아래의 옵션을 넣어 [렌더링된 문서](./docs/main_v2-0_larger.html)와 비교해보시라. 
+- 아래의 옵션을 넣어 [렌더링된 문서](./main_v2-0_larger.html)와 비교해보시라. 
 :::
 
 ```qmd
 format: 
     revealjs:
         ...
-        width: 1500
-        height: 800
+        width: 1800
+        height: 700  # maybe 16:10 
 ```
 
 # 끝 { 

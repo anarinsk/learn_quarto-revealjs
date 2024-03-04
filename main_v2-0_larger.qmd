@@ -1,5 +1,5 @@
 ---
-title: "This Is a Testflight"
+title: "This Is a Testflight (LARGER!)"
 subtitle: "Completely useless presentation"
 author: "[anarinsk](https://www.lostineconomics.com)"
 date: "2023-11-12"
@@ -21,8 +21,8 @@ format:
         footer: "TEST FOR FOOTER!"
         #preview-links: true
         #self-contained: true
-        width: 2000
-        height: 1000
+        width: 1800
+        height: 700
 ---
 
 ## Disclaimer{.center .smaller}
