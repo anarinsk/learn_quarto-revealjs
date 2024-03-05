@@ -668,14 +668,19 @@ $presentation-h6-font-size: 0.9em;
 ::: {.nonincremental}
 - 슬라이드의 판 크기 자체를 제어할 수 있다. 
 - 더 많은 글씨나 요소를 넣을 수 있다. 
+
+::::{style="color:yellow;"}
+- 이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 
+::::
+
 :::
 
 ```qmd
 format: 
     revealjs:
         ...
-        width: 1500
-        height: 800
+        width: 1800
+        height: 700
 ```
 
 # 끝 { 
