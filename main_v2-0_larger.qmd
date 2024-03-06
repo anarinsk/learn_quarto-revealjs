@@ -8,11 +8,14 @@ format:
     revealjs:
         #toc: true
         #toc-depth: 1
+        slide-number: true
+        center-title-slide: true
+        center: false
         embed-resources: true
         include-in-header: [favicon.html, mathjax.html]
         incremental: true  
         #css:
-        theme: [format.scss, black]
+        theme: [format_larger.scss, black]
         transition: concave
         background-transition: fade
         smaller: false
@@ -21,8 +24,9 @@ format:
         footer: "TEST FOR FOOTER!"
         #preview-links: true
         #self-contained: true
-        width: 1800
-        height: 700
+        #Default size: 1050 x 700
+        width: 1500
+        height: 1000
 ---
 
 ## Disclaimer{.center .smaller}
@@ -553,7 +557,7 @@ This slide's background image fits the screen.
 
 ## 링크 걸기 {.smaller}
 
-:::{layout="[-0.1, 0.7, -0.1]"}
+:::{layout="[[-1], [-1, 6, -1], [-1]]"}
 AI는 무엇을 얼마나 잘하나? 👇
 [![](images/ai-performance-coding-math-knowledge-tests-2.png)](https://ourworldindata.org/grapher/ai-performance-coding-math-knowledge-tests){preview-link="true"}
 :::
@@ -667,10 +671,11 @@ $presentation-h6-font-size: 0.9em;
 
 ::: {.nonincremental}
 - 슬라이드의 판 크기 자체를 제어할 수 있다. 
-- 더 많은 글씨나 요소를 넣을 수 있다. 
+  - 슬라이드의 글씨 크기 비율 같은 것이 달라 보인다. 
+- 더 많은 글씨나 요소를 넣을 수 있다.
 
 ::::{style="color:yellow;"}
-- 이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 
+- 이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! [원래 문서]((./main_v2-0.html))
 ::::
 
 :::

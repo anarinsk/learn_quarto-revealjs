@@ -865,7 +865,7 @@
     "href": "main_v2-0_larger.html#링크-걸기",
     "title": "This Is a Testflight (LARGER!)",
     "section": "링크 걸기",
-    "text": "링크 걸기\n\n\n\n \n\n\nAI는 무엇을 얼마나 잘하나? 👇"
+    "text": "링크 걸기\n\n\n\n \n\n\n\n\n \n\n\nAI는 무엇을 얼마나 잘하나? 👇"
   },
   {
     "objectID": "main_v2-0_larger.html#url-프리뷰",
@@ -935,6 +935,6 @@
     "href": "main_v2-0_larger.html#슬라이드-크기-자체의-제어",
     "title": "This Is a Testflight (LARGER!)",
     "section": "슬라이드 크기 자체의 제어",
-    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\n\n이 문서가 바로 아래의 옵션으로 렌더링 되었습니다!\n\n\n\nformat: \n    revealjs:\n        ...\n        width: 1800\n        height: 700"
+    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n\n슬라이드의 글씨 크기 비율 같은 것이 달라 보인다.\n\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\n\n이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 원래 문서\n\n\n\nformat: \n    revealjs:\n        ...\n        width: 1800\n        height: 700"
   }
 ]
