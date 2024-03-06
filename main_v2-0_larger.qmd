@@ -684,8 +684,8 @@ $presentation-h6-font-size: 0.9em;
 format: 
     revealjs:
         ...
-        width: 1800
-        height: 700
+        width: 1500
+        height: 1000
 ```
 
 # 끝 { 
