@@ -667,7 +667,7 @@ $presentation-h5-font-size:	0.9em;
 $presentation-h6-font-size: 0.9em;
 ```
 
-## 슬라이드 크기 자체의 제어 
+## 슬라이드 캔버스 제어
 
 ::: {.nonincremental}
 - 슬라이드의 판 크기 자체를 제어할 수 있다. 
@@ -678,8 +678,6 @@ $presentation-h6-font-size: 0.9em;
 - 이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! [원래 문서]((./main_v2-0.html))
 ::::
 
-:::
-
 ```qmd
 format: 
     revealjs:
@@ -687,6 +685,10 @@ format:
         width: 1500
         height: 1000
 ```
+
+- 이 경우 그대로 두면 타이틀과 본문이 너무 붙는다. 그래서 `format.scss`의 `h2` 관련 사항에서 마진을 수정했다. 
+
+:::
 
 # 끝 { 
   background-iframe="https://www.youtube.com/embed/CT6EM4nVxqE?autoplay=1&mute=1&start=10" 

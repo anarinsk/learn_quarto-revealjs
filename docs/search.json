@@ -648,7 +648,7 @@
     "href": "main_v2-0.html#슬라이드-크기-자체의-제어",
     "title": "This Is a Testflight",
     "section": "슬라이드 크기 자체의 제어",
-    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n아래의 옵션을 넣어 렌더링된 문서와 비교해보시라.\n\n\nformat: \n    revealjs:\n        ...\n        width: 1800\n        height: 700  # maybe 16:10"
+    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n아래의 옵션을 넣어 렌더링된 문서와 비교해보시라.\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 1000  # maybe 3:2 ratio"
   },
   {
     "objectID": "main_v2-0_larger.html#disclaimer",
@@ -936,5 +936,19 @@
     "title": "This Is a Testflight (LARGER!)",
     "section": "슬라이드 크기 자체의 제어",
     "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n\n슬라이드의 글씨 크기 비율 같은 것이 달라 보인다.\n\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\n\n이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 원래 문서\n\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 1000"
+  },
+  {
+    "objectID": "main_v2-0_larger.html#슬라이드-캔버스-제어",
+    "href": "main_v2-0_larger.html#슬라이드-캔버스-제어",
+    "title": "This Is a Testflight (LARGER!)",
+    "section": "슬라이드 캔버스 제어",
+    "text": "슬라이드 캔버스 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n\n슬라이드의 글씨 크기 비율 같은 것이 달라 보인다.\n\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\n\n이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 원래 문서\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 1000\n\n이 경우 그대로 두면 타이틀과 본문이 너무 붙는다. 그래서 format.scss의 h2 관련 사항에서 마진을 수정했다."
+  },
+  {
+    "objectID": "main_v2-0_larger.html#슬라이드-캔버스-제어-nonincremental",
+    "href": "main_v2-0_larger.html#슬라이드-캔버스-제어-nonincremental",
+    "title": "This Is a Testflight (LARGER!)",
+    "section": "슬라이드 캔버스 제어 {nonincremental}",
+    "text": "슬라이드 캔버스 제어 {nonincremental}\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n\n슬라이드의 글씨 크기 비율 같은 것이 달라 보인다.\n\n더 많은 글씨나 요소를 넣을 수 있다.\n\n\n\n이 문서가 바로 아래의 옵션으로 렌더링 되었습니다! 원래 문서\n\n\nformat: \n    revealjs:\n        ...\n        width: 1500\n        height: 1000\n\n이 경우 그대로 두면 타이틀과 본문이 너무 붙는다. 그래서 format.scss의 h2 관련 사항에서 마진을 수정했다."
   }
 ]

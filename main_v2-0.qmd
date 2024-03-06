@@ -21,8 +21,9 @@ format:
         footer: "TEST FOR FOOTER!"
         #preview-links: true
         #self-contained: true
-        #width: 1800
-        #height: 700
+        #Default size: 1050 x 700 (width * 2/3)
+        #width: 1500
+        #height: 1000
 ---
 
 ## Disclaimer{.center .smaller}
@@ -675,8 +676,8 @@ $presentation-h6-font-size: 0.9em;
 format: 
     revealjs:
         ...
-        width: 1800
-        height: 700  # maybe 16:10 
+        width: 1500
+        height: 1000  # maybe 3:2 ratio 
 ```
 
 # 끝 { 
