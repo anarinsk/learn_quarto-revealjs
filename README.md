@@ -7,7 +7,9 @@
 ## How 
 
 - VS Code의 Quarto 플러그인을 활용했다. 
-- 문서 소스: `main.qmd`
+- 문서 소스:
+  - [old] `main.qmd`
+  - [current] `main_v2.0.qmd`
 
 ## What 
 
