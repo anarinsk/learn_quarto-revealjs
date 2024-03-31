@@ -3,10 +3,15 @@
 ## Purpose 
 
 - Quarto-Revealjs를 통해서 Revealjs 기반 PT를 생성한다. 
+- [자매 리포](https://github.com/anarinsk/project_quarto-rjs-advanced)도 참고하시라. 
 
 ## How 
 
-- VS Code의 Quarto 플러그인을 활용했다. 
+### Tools 
+- [Quarto CLI](https://github.com/quarto-dev/quarto-cli)(Linux-64, macos-arm64)
+- [VS Code의 Quarto 플러그인](https://quarto.org/docs/tools/vscode.html)
+
+### Source 
 - 문서 소스:
   - [old] `main.qmd`
   - [current] `main_v2-0.qmd`, `main_v2-0_larger.qmd`
