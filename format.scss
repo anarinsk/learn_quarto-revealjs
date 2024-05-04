@@ -6,13 +6,13 @@ $headings-font-weight:  600 !default;
 //@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
 
 @font-face {
-	font-family: 'SUIT Variable';
+	font-family: 'SUIT';
 	font-weight: 100 900;
 	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUIT-Variable.woff2') format('woff2-variations');
 }
 
 @font-face {
-	font-family: 'SUITE Variable';
+	font-family: 'SUITE';
 	font-weight: 300 900;
 	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUITE-Variable.woff2') format('woff2-variations');
 }
@@ -39,13 +39,13 @@ $headings-font-weight:  600 !default;
 .reveal h4, 
 .reveal h5, 
 .reveal h6 {
-  font-family: 'SUITE Variable', sans-serif;
+  font-family: 'SUITE', sans-serif;
   /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */
   font-weight: 750;
 }
 
 .reveal section p {
-    font-family: 'SUIT Variable', sans-serif !important;
+    font-family: 'SUIT', sans-serif !important;
     font-size: 90%;
 }
 
@@ -57,7 +57,7 @@ $headings-font-weight:  600 !default;
 .reveal ul, 
 .reveal li, 
 .reveal ol {
-    font-family: 'SUIT Variable', sans-serif !important;
+    font-family: 'SUIT', sans-serif !important;
     font-size: 95%;
 }
 
