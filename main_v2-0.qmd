@@ -681,7 +681,7 @@ format:
 ```
 
 # 끝 { 
-  background-iframe="https://www.youtube.com/embed/CT6EM4nVxqE?autoplay=1&mute=1&start=10" 
+  background-iframe="https://www.youtube.com/watch?v=yTpQPs2GUVA?autoplay=1&mute=1&start=10" 
   background-opacity=0.2 }
 
 
