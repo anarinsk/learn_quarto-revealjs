@@ -1,4 +1,10 @@
 /*-- scss:defaults --*/
+$presentation-h1-font-size: 120% !default;
+$presentation-h2-font-size: 105% !default;
+$presentation-h3-font-size: 90% !default;
+$presentation-h4-font-size:	90% !default;
+$presentation-h5-font-size:	90% !default;
+$presentation-h6-font-size: 90% !default;
 $headings-font-weight:  600 !default;
 
 //@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
@@ -27,7 +33,7 @@ $headings-font-weight:  600 !default;
 @font-face {
   font-family: 'IBM Plex Mono';
   font-weight: 400;
-  src: url("https://github.com/anarinsk/setup_webfonts/raw/main/IBMPlexMono-Regular.woff2") format('woff2'),
+  src: url("https://github.com/anarinsk/setup_webfonts/raw/main/IBMPlexMono-Medium.woff2") format('woff2'),
   // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
 }
 
@@ -55,24 +61,25 @@ $headings-font-weight:  600 !default;
 
 .reveal section p {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .reveal section pre code {
   font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 .reveal ul, 
 .reveal li, 
-.reveal ol {
+.reveal ol, 
+.reveal li {
     font-family: 'SUIT', sans-serif !important;
-    font-size: 95%;
+    font-size: 85%;
 }
 
 .reveal code{
   font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 

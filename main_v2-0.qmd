@@ -22,8 +22,8 @@ format:
         #preview-links: true
         #self-contained: true
         #Default size: 1050 x 700 (width * 2/3)
-        #width: 1500
-        #height: 1000
+        width: 1200
+        height: 700
 ---
 
 ## Disclaimer{.center .smaller}
@@ -56,11 +56,13 @@ This is a testflight. In these slides, I will test some (nice) features of revea
 
 ## `p` 태그와 `ui`, `ol` 태그의 글씨는 다를까?
 
-:::{.nonincremental}
+::::{.nonincremental}
+
 - *해장술*로 적당한 주종은? 
 - **해장술**은 필요한가? 
 - ***해장술***에 어울리는 안주는?
 
+:::{}
 1. 위 리스트 텍스트(`ul`, `ol`)가 이 텍스트와 달라 보이나요? (다르지 않네요!)
 
 2. `해장술`은 `*` 숫자에 따라서 다르게 처리됩니다. 
@@ -68,6 +70,7 @@ This is a testflight. In these slides, I will test some (nice) features of revea
     - `**`: **굵게**
     - `***`: ***굵게 + 이탤릭***
 :::
+::::
 
 ## Footnote 넣기 
 
