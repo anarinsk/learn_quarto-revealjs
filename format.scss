@@ -6,13 +6,13 @@ $headings-font-weight:  600 !default;
 //@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
 
 @font-face {
-	font-family: 'SUIT';
+	font-family: 'SUIT'; // SUIT Variable 
 	font-weight: 100 900;
 	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUIT-Variable.woff2') format('woff2-variations');
 }
 
 @font-face {
-	font-family: 'SUITE';
+	font-family: 'SUITE'; // SUITE Variable
 	font-weight: 300 900;
 	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUITE-Variable.woff2') format('woff2-variations');
 }
@@ -25,11 +25,20 @@ $headings-font-weight:  600 !default;
 }
 
 @font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  src: url("https://github.com/anarinsk/setup_webfonts/raw/main/IBMPlexMono-Regular.woff2") format('woff2'),
+  // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
+}
+
+@font-face {
   font-family: 'STIX Two Math';
   font-weight: 400;
   src: url("https://github.com/anarinsk/setup_webfonts/raw/main/STIXTwoMath-Regular.woff2") format('woff2'),
   // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
 }
+
+
 
 /*-- scss:rules --*/
 
@@ -50,7 +59,7 @@ $headings-font-weight:  600 !default;
 }
 
 .reveal section pre code {
-  font-family: 'D2Coding', monospace !important;
+  font-family: 'IBM Plex Mono', 'D2Coding', monospace !important;
   font-size: 90%;
 }
 

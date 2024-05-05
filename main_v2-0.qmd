@@ -56,17 +56,18 @@ This is a testflight. In these slides, I will test some (nice) features of revea
 
 ## `p` 태그와 `ui`, `ol` 태그의 글씨는 다를까?
 
+:::{.nonincremental}
 - *해장술*로 적당한 주종은? 
 - **해장술**은 필요한가? 
 - ***해장술***에 어울리는 안주는?
 
-. . . 
-
 1. 위 리스트 텍스트(`ul`, `ol`)가 이 텍스트와 달라 보이나요? (다르지 않네요!)
+
 2. `해장술`은 `*` 숫자에 따라서 다르게 처리됩니다. 
     - `*`: *이탤릭* 
     - `**`: **굵게**
     - `***`: ***굵게 + 이탤릭***
+:::
 
 ## Footnote 넣기 
 
@@ -685,7 +686,7 @@ format:
 ```
 
 # 끝 { 
-  background-iframe="https://www.youtube.com/embed/yTpQPs2GUVA?autoplay=1&mute=1&start=10" 
+  background-iframe="https://www.youtube.com/embed/yTpQPs2GUVA?autoplay=1&mute=0&start=10" 
   background-opacity=0.2 }
 
 
