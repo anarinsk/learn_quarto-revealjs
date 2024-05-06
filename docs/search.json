@@ -473,7 +473,7 @@
     "href": "main_v2-0.html#with-scss",
     "title": "This Is a Testflight",
     "section": "With scss",
-    "text": "With scss\n\n아래 @import를 활용하는 방법은 폰트 로딩에 과도하게 많은 트래픽을 사용한다.\n이 방법은 더 이상 권장하지 않는다.\n두 가지 해법을 활용한다.\n\n사용할 폰트에 Variable 폰트가 있으면, 이를 활용한다.\n@font-face를 활용해서 웹 폰트로 특화된 *.woff2 파일을 로딩한다.\n\n🔗format.scss를 참고하자."
+    "text": "With scss\n\n\n다음 슬라이드에 소개될 @import를 활용하는 방법은 폰트 로딩에 과도하게 많은 트래픽을 사용한다.\n이 방법은 더 이상 권장하지 않는다.\n두 가지 해법을 활용한다.\n\n사용할 폰트에 Variable 폰트가 있으면, 이를 활용한다.\n@font-face를 활용해서 웹 폰트로 특화된 *.woff2 파일을 로딩한다.\n\n🔗format.scss를 참고하자."
   },
   {
     "objectID": "main_v2-0.html#with-scss-depreciated",
