@@ -273,7 +273,16 @@ $$
 
 # 폰트 적용하기
 
-## sample css { .smaller }
+## With `scss` 
+
+- 아래 `@import`를 활용하는 방법은 폰트 로딩에 과도하게 많은 트래픽을 사용한다. 
+- 이 방법은 더 이상 권장하지 않는다.
+- 두 가지 해법을 활용한다. 
+  - 사용할 폰트에 Variable 폰트가 있으면, 이를 활용한다. 
+  - `@font-face`를 활용해서 웹 폰트로 특화된 `*.woff2` 파일을 로딩한다.
+- [🔗`format.scss`](https://github.com/anarinsk/learn_quarto-revealjs/blob/main/format.scss)를 참고하자.  
+
+## With `scss` (Depreciated) { .smaller }
 
 :::{ .nonincremental }
 - `.qmd` 파일과 같은 위치에 `.css` 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다. 
@@ -576,7 +585,7 @@ yml 설정에서 `preview-links: true`를 설정해둔다.
 - 제대로 열리지 않는 페이지가 있다. 
 :::
 
-`[🔗](...){preview-link="true"}` 와 같이 `{}` 안에서 개별적으로 설정해서 쓸 수도 있다. 
+`[🔗LINK](...){preview-link="true"}` 와 같이 `{}` 안에서 개별적으로 설정해서 쓸 수도 있다. 
 
 ## layout 쓰기{.smaller}
 

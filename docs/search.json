@@ -221,7 +221,7 @@
     "href": "main_v2-0.html#url-프리뷰",
     "title": "This Is a Testflight",
     "section": "URL 프리뷰",
-    "text": "URL 프리뷰\nyml 설정에서 preview-links: true를 설정해둔다.\n\n\n페이지 안에서 링크가 열리는 장점이 있다.\n제대로 열리지 않는 페이지가 있다.\n\n\n[🔗](...){preview-link=\"true\"} 와 같이 {} 안에서 개별적으로 설정해서 쓸 수도 있다."
+    "text": "URL 프리뷰\nyml 설정에서 preview-links: true를 설정해둔다.\n\n\n페이지 안에서 링크가 열리는 장점이 있다.\n제대로 열리지 않는 페이지가 있다.\n\n\n[🔗LINK](...){preview-link=\"true\"} 와 같이 {} 안에서 개별적으로 설정해서 쓸 수도 있다."
   },
   {
     "objectID": "main_v2-0.html#layout-쓰기",
@@ -467,5 +467,19 @@
     "title": "This Is a Testflight",
     "section": "Testing Code II",
     "text": "Testing Code II\n#| echo: true\n#| label: fig-polar-2\n#| fig-cap: \"A line plot on a polar axis wth customized style\"\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nplt.style.use('seaborn-v0_8-white')\n#plt.rcParams[\"figure.figsize\"] = (6,6)\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\nplt.style.use('seaborn-v0_8-white'): 적절한 백색 스타일\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A line plot on a polar axis wth customized style"
+  },
+  {
+    "objectID": "main_v2-0.html#with-scss",
+    "href": "main_v2-0.html#with-scss",
+    "title": "This Is a Testflight",
+    "section": "With scss",
+    "text": "With scss\n\n아래 @import를 활용하는 방법은 폰트 로딩에 과도하게 많은 트래픽을 사용한다.\n이 방법은 더 이상 권장하지 않는다.\n두 가지 해법을 활용한다.\n\n사용할 폰트에 Variable 폰트가 있으면, 이를 활용한다.\n@font-face를 활용해서 웹 폰트로 특화된 *.woff2 파일을 로딩한다.\n\n🔗format.scss를 참고하자."
+  },
+  {
+    "objectID": "main_v2-0.html#with-scss-depreciated",
+    "href": "main_v2-0.html#with-scss-depreciated",
+    "title": "This Is a Testflight",
+    "section": "With scss (Depreciated)",
+    "text": "With scss (Depreciated)\n\n\n.qmd 파일과 같은 위치에 .css 파일을 두고, 문서 앞의 YAML에서 해당 파일을 로드하면 된다.\n폰트를 로딩하고 적용하는 방법은 대체로 비슷하다. 이 문서에 적용된 format.scss를 보자.\n\n1-3 번 라인이 웹폰트를 로딩하는 css다.\n폰트의 추가 및 교체 시 웹폰트의 주소를 바꾸거나 추가하면 된다.\n나머지 아래는 css 양식, 즉 PT의 표시 항목 별로 폰트, 크기 및 특성을 지정한다.\n\n\n\n@import url(\"https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css\");\n@import url(\"https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/static/woff2/SUITE.css\");\n\n/*-- scss:rules --*/\n.reveal h1, \n.reveal h2, \n.reveal h3, \n.reveal h4, \n.reveal h5, \n.reveal h6 {\n  font-family: 'SUITE', sans-serif !important;\n  /* text-shadow: -1px -1px 0 rgba(0, 0, 0, .3); */\n  font-weight: 750;\n}\n\n.reveal section p {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 90%;\n}\n\n.reveal section pre code {\n  font-family: 'D2Coding', monospace !important;\n  font-size: 90%;\n}\n\n.reveal ul, \n.reveal li, \n.reveal ol {\n    font-family: 'SUIT', sans-serif !important;\n    font-size: 95%;\n}\n\n.reveal code{\n  font-family: 'D2Coding', monospace !important;\n  font-size: 95%;\n}"
   }
 ]
