@@ -14,19 +14,22 @@ $headings-font-weight:  600 !default;
 @font-face {
 	font-family: 'SUIT'; // SUIT Variable 
 	font-weight: 100 900;
+  //local:
 	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUIT-Variable.woff2') format('woff2-variations');
 }
 
 @font-face {
 	font-family: 'SUITE'; // SUITE Variable
 	font-weight: 300 900;
-	src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUITE-Variable.woff2') format('woff2-variations');
+	//local:
+  src: url('https://github.com/anarinsk/setup_webfonts/raw/main/SUITE-Variable.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'D2Coding';
   font-weight: 400;
   src: url("https://github.com/anarinsk/setup_webfonts/raw/main/D2Coding-ligature-subset.woff2") format('woff2'),
+  //local:
   // unicode-range: U+000-5FF;    /* 라틴어만 다운로드 */
 }
 
