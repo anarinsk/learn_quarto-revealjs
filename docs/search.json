@@ -277,14 +277,14 @@
     "href": "main_v2-0.html#h1h6-글자-크기-제어",
     "title": "This Is a Testflight",
     "section": "H1~H6 글자 크기 제어",
-    "text": "H1~H6 글자 크기 제어\n\n\n슬라이드에 성격에 따라서 요소별로 글자가 크거나 적으면 좋겠다 싶을 때가 있다…\nformat.scss에 아래와 같이 설정하면 된다.\n\n\n/*-- scss:defaults --*/\n$presentation-h1-font-size: 2.2em;\n$presentation-h2-font-size: 1.2em;\n$presentation-h3-font-size: 1em;\n$presentation-h4-font-size: 0.9em;\n$presentation-h5-font-size: 0.9em;\n$presentation-h6-font-size: 0.9em;"
+    "text": "H1~H6 글자 크기 제어\n\n\n슬라이드에 성격에 따라서 요소별로 글자가 크거나 적으면 좋겠다 싶을 때가 있다…\nformat.scss에 아래와 같이 설정하면 된다.\n%로 설정해도 된다.\n\n\n/*-- scss:defaults --*/\n$presentation-h1-font-size: 2.2em;\n$presentation-h2-font-size: 1.2em;\n$presentation-h3-font-size: 1em;\n$presentation-h4-font-size: 0.9em;\n$presentation-h5-font-size: 0.9em;\n$presentation-h6-font-size: 0.9em;"
   },
   {
     "objectID": "main_v2-0.html#슬라이드-크기-자체의-제어",
     "href": "main_v2-0.html#슬라이드-크기-자체의-제어",
     "title": "This Is a Testflight",
     "section": "슬라이드 크기 자체의 제어",
-    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n아래의 옵션을 넣어 렌더링된 문서와 비교해보시라.\n가능하면 %로 제어하도록 하자.\n\n\nformat: \n    revealjs:\n        ...\n        width: 100%\n        height: 100%  # maybe 3:2 ratio"
+    "text": "슬라이드 크기 자체의 제어\n\n\n슬라이드의 판 크기 자체를 제어할 수 있다.\n더 많은 글씨나 요소를 넣을 수 있다.\n가능하면 %로 제어하도록 하자. (이 문서도 해당 옵션으로 렌더링)\n\n\nformat: \n    revealjs:\n        ...\n        width: 100%\n        height: 100%  # maybe 3:2 ratio"
   },
   {
     "objectID": "main.html#disclaimer",
